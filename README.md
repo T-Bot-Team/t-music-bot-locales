@@ -47,7 +47,7 @@ Each language has its own directory named after its [ISO language code](https://
 The process is very similar to adding a new language:
 
 1.  **Fork and Branch:** Fork the repository and create a new branch for your changes.
-2.  **Find the File:** Navigate to the directory for the language you want to improve (e.g., `locales/es-ES/`).
+2.  **Find the File:** Navigate to the directory for the language you want to improve (e.g., `es-ES/`).
 3.  **Edit and Correct:** Open the relevant `.json` file and make your corrections to the translated strings.
 4.  **Submit a Pull Request:** Commit your changes and open a pull request with a description of what you improved.
 
