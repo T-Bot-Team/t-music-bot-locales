@@ -1,0 +1,110 @@
+{
+  "botinfo": {
+    "title": "🗂️ | {{username}} | Statistiken und Informationen",
+    "fields": {
+      "uptime": "⏱️ | __Bot-Laufzeit__",
+      "performance": "📊 | __Leistung__",
+      "memory": "__**Speicherverbrauch**__",
+      "latency": "**Latenz:**",
+      "stats": "📒 | __Aktuelle Statistiken__",
+      "servers": "**Server:**",
+      "users": "**Benutzer**:",
+      "commands": "**Befehle:**",
+      "players": "**Player:**",
+      "versions": "🛡️ | __Versionen__",
+      "bot": "**Bot-Version:**",
+      "node": "**Node.js:**",
+      "bun": "**Bun:**",
+      "api": "**@discordjs/core:**",
+      "others": "❓ | __Sonstiges__",
+      "developer": "**Entwickler:**",
+      "created": "**Erstellt am:**"
+    }
+  },
+  "translation_progress": {
+    "title": "🌍 | Bot-Übersetzungsstatus",
+    "description": "Hier ist der aktuelle Übersetzungsfortschritt für alle von der Community unterstützten Sprachen im Vergleich zu `en-US`.\nGesamtzahl der Strings: **{{count}}**",
+    "error_master": "Konnte die Master-Sprachdateien (`en-US`) nicht laden.",
+    "error_languages": "Keine anderen Sprachen zum Vergleichen gefunden.",
+    "field_title": "Sprachen",
+    "field_empty": "Keine Sprachen zum Anzeigen."
+  },
+  "changelog": {
+    "title": "🗒️ | Änderungsprotokoll - Version {{version}}",
+    "none": "Es gibt noch keine Änderungsprotokolle.",
+    "footer": "Zuletzt aktualisiert"
+  },
+  "clusters": {
+    "error_fetch": "Ein Fehler ist beim Abrufen der Daten aufgetreten.",
+    "title": "🔗 | Band-Informationen",
+    "fields": {
+      "cluster": "Band",
+      "current_cluster": " (Du bist hier)",
+      "uptime": "**Uptime:**",
+      "servers": "**Server:**",
+      "users": "**Benutzer:**",
+      "memory": "**Speicher:**",
+      "ping": "**Ping:**",
+      "players": "**Aktuelle Player:**"
+    }
+  },
+  "help": {
+    "categories": {
+      "info": "ℹ️ | Informationen",
+      "music": "🎵 | Musik",
+      "filters": "🎚️ | Filter",
+      "support": "🧑‍💼 | Support",
+      "developer": "🛠️ | Entwickler"
+    },
+    "main_embed": {
+      "title": "📑 | Verfügbare Befehle von {{username}}",
+      "footer": "Befehle insgesamt: {{count}}",
+      "buttons": {
+        "invite": "Einladen",
+        "upvote": "Upvote",
+        "support": "Support"
+      }
+    },
+    "command_embed": {
+      "fail": {
+        "title": "Befehl nicht gefunden",
+        "description": "Befehl `{{cmd}}` konnte nicht gefunden werden.\nÜberprüfe die Schreibweise und versuche es erneut."
+      },
+      "title": "🔎 | {{cmd}} - Befehlsinformationen",
+      "fields": {
+        "name": "**Name:**",
+        "description": "**Beschreibung:**",
+        "category": "**Kategorie:**",
+        "usage": "**Nutzung:**",
+        "permissions": "__**Benötigte Berechtigungen**__"
+      },
+      "footer": "Syntax: <> = erforderlich, [] = optional"
+    }
+  },
+  "ping": {
+    "title": "🏓 | Ping-Statistiken",
+    "fields": {
+      "latency": ":timer: | Latenz",
+      "api": ":robot: | API",
+      "player": ":headphones: | Player-Ping"
+    }
+  },
+  "privacy": {
+    "title": "📝 | Datenschutzrichtlinie",
+    "description": "Du kannst alles Wissenswerte erfahren, indem du [hier](https://github.com/T-Bot-Team/privacy-policy-tos/blob/master/t-music-bot/privacy-policy.md) klickst.",
+    "optout_on": "✅ | Du hast dich erfolgreich von der Datenerfassung **abgemeldet**. Deine vorhandenen Daten wurden **gelöscht** und zukünftige Wiedergaben werden nicht mehr gezählt. (Führe diesen Befehl erneut aus, um dich anzumelden)",
+    "optout_off": "✅ | Du hast dich erfolgreich für die Datenerfassung **angemeldet**. Deine zukünftigen Wiedergaben werden nun in den Bestenlisten nachverfolgt. (Führe diesen Befehl erneut aus, um dich abzumelden)"
+  },
+  "topsongs": {
+    "title": "🎶 | Meistgespielte Songs",
+    "times": "**Anzahl Wiedergaben:**",
+    "total": "**{{amount}}** Songs wurden mit insgesamt über **{{plays}}** Wiedergaben gespielt! :tada:",
+    "rank": "🎵 | **Rang des zuletzt gespielten Titels:** `#{{rank}}` ({{title}} - **{{plays}}** Wiedergaben)"
+  },
+  "topusers": {
+    "title": "👑 | Aktivste Benutzer",
+    "times": "**Anzahl Wiedergaben:**",
+    "total": "**{{amount}}** Benutzer haben Songs mit insgesamt über **{{plays}}** Wiedergaben gespielt! :tada:",
+    "rank": "👤 | **Dein globaler Rang:** `#{{rank}}` (**{{plays}}** Wiedergaben)"
+  }
+}

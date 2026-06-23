@@ -1,0 +1,23 @@
+{
+  "no_permission": "No tienes los permisos necesarios para usar este comando.",
+  "bot_no_permission": "Me faltan los siguientes permisos para ejecutar esta comando: {{missing}}",
+  "error_occurred": "Ha ocurrido un error inesperado. Por favor, informa de ello en nuestro Servidor de Soporte. (`/support`)",
+  "error": "Ha ocurrido un error al ejecutar este comando. Por favor, inténtalo de nuevo más tarde.",
+  "timed_out": "La interacción ha caducado.",
+  "on_cooldown": "Estás en tiempo de espera.",
+  "no_voice": "No estás en un canal de voz.",
+  "time_units": {
+    "week_singular": "semana",
+    "week_plural": "semanas",
+    "day_singular": "día",
+    "day_plural": "días",
+    "hour_singular": "hora",
+    "hour_plural": "horas",
+    "minute_singular": "minuto",
+    "minute_plural": "minutos",
+    "second_singular": "segundo",
+    "second_plural": "segundos",
+    "and": "y",
+    "zero_seconds": "0 segundos"
+  }
+}

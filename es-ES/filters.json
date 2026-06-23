@@ -1,0 +1,63 @@
+{
+  "eightd": {
+    "success": "¡El filtro 8D se ha **aplicado** correctamente!"
+  },
+  "bassboost": {
+    "success": "¡Has establecido correctamente el nivel de bassboost en **{{level}}**!"
+  },
+  "clear": {
+    "success": "¡Todos los filtros se han **eliminado** correctamente!"
+  },
+  "chorus": {
+    "success": "¡El efecto de coro se ha **aplicado** correctamente!"
+  },
+  "echo": {
+    "success": "¡El efecto de eco se ha **aplicado** correctamente!"
+  },
+  "electronic": {
+    "success": "¡El filtro Electronic se ha **aplicado** correctamente!"
+  },
+  "gaming": {
+    "success": "¡El filtro Gaming se ha **aplicado** correctamente!"
+  },
+  "karaoke": {
+    "success": "¡El filtro Karaoke se ha **aplicado** correctamente!"
+  },
+  "nightcore": {
+    "love_success": "¡El filtro Nightcore **Love** se ha **aplicado** correctamente!",
+    "normal_success": "¡El filtro Nightcore **Normal** se ha **aplicado** correctamente!"
+  },
+  "phaser": {
+    "success": "¡El efecto phaser se ha **aplicado** correctamente!"
+  },
+  "pop": {
+    "success": "¡El filtro Pop se ha **aplicado** correctamente!"
+  },
+  "rock": {
+    "success": "¡El filtro Rock se ha **aplicado** correctamente!"
+  },
+  "soft": {
+    "success": "¡El filtro Soft se ha **aplicado** correctamente!"
+  },
+  "trebblebass": {
+    "success": "¡El filtro Trebblebass se ha **aplicado** correctamente!"
+  },
+  "tremolo": {
+    "success": "¡El filtro Tremolo se ha **aplicado** correctamente!"
+  },
+  "vaporwave": {
+    "success": "¡El filtro Vaporwave se ha **aplicado** correctamente!"
+  },
+  "vibrato": {
+    "success": "¡El filtro Vibrato se ha **aplicado** correctamente!"
+  },
+  "lowpass": {
+    "success": "¡El filtro Lowpass se ha **aplicado** correctamente!"
+  },
+  "slowmode": {
+    "success": "¡El filtro Slowmode se ha **aplicado** correctamente!"
+  },
+  "distortion": {
+    "success": "¡El filtro Distortion se ha **aplicado** correctamente!"
+  }
+}

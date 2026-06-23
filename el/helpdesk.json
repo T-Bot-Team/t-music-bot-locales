@@ -1,0 +1,27 @@
+{
+  "bugreport": {
+    "not_valid": "Πρέπει να δώσετε ένα έγκυρο όνομα εντολής.",
+    "modal": {
+      "title": "Υποβολή αναφοράς σφάλματος",
+      "command_label": "Ποια εντολή έχει το σφάλμα;",
+      "command_placeholder": "π.χ. /play, /skip, music player",
+      "issue_label": "Περιγράψτε το σφάλμα λεπτομερώς",
+      "issue_placeholder": "Τι συνέβη; Τι περιμένατε να συμβεί; Παρακαλούμε να είστε όσο το δυνατόν πιο συγκεκριμένοι."
+    },
+    "success": {
+      "title": "Η αναφορά σφάλματος υποβλήθηκε!",
+      "description": "✅ | Σας ευχαριστούμε για τα σχόλιά σας! Η αναφορά σφάλματος έχει υποβληθεί.\nΤο ID του σφάλματος είναι: **#{{bugId}}**",
+      "footer": "Εγγραφείτε στον διακομιστή υποστήριξης για περισσότερες πληροφορίες! (/support)"
+    }
+  },
+  "invite": {
+    "title": ":link: | Χρήσιμοι σύνδεσμοι",
+    "description": "Βοηθήστε μας να διαδώσουμε το bot προσθέτοντάς το στον δικό σας διακομιστή!\nΘέλετε να βοηθήσετε ακόμα περισσότερο; Χρησιμοποιήστε την εντολή `/bugreport` για να αναφέρετε τυχόν σφάλματα ή προβλήματα!\n\n:robot: | **Σύνδεσμοι πρόσκλησης bot**\n[Χωρίς Άδειες](https://discordapp.com/oauth2/authorize?client_id={{id}}&permissions=0&scope=bot%20applications.commands) | [Πλήρεις Άδειες](https://discordapp.com/api/oauth2/authorize?client_id={{id}}&permissions=2146958583&scope=bot%20applications.commands)\nΠροκαθορισμένο: [Απαιτούμενες Άδειες](https://discordapp.com/api/oauth2/authorize?client_id={{id}}&permissions=36981760&scope=bot%20applications.commands)\n\n:globe_with_meridians: | **Ιστοσελίδες ψηφοφορίας**\n[Top.gg](https://top.gg/421978090823090186/vote)\n\n:beginner: | **Διακομιστής υποστήριξης**\n[Συμμετάσχετε](https://discord.gg/FYzyYTX)",
+    "footer": "Καλή διασκέδαση με τη χρήση του bot!"
+  },
+  "support": {
+    "title": ":link: | Πρόσκληση διακομιστή υποστήριξης",
+    "description": "Αν έχετε βρει σφάλματα, ή απλά θέλετε να κάνετε παρέα με\nκαι να διασκεδάσετε, κάντε κλικ σε [αυτόν τον σύνδεσμο](https://discord.gg/FYzyYTX) για να γίνετε μέλος του Διακομιστή Υποστήριξης!\n    \n**Υπενθύμιση:** Μπορείτε πάντα να προσθέσετε το bot στον δικό σας διακομιστή\nγια να μοιραστείτε τη διασκέδαση και να μας υποστηρίξετε επίσης!\n    \nΕδώ είναι η [πρόσκληση του bot](https://discordapp.com/api/oauth2/authorize?client_id=412003088732389396&permissions=376532054&scope=bot)\nΣας ευχαριστούμε και πάλι που περάσατε και **διασκεδάστε**!",
+    "footer": "Σας ευχαριστούμε που χρησιμοποιείτε το bot μας!"
+  }
+}

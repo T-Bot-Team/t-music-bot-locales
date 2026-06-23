@@ -1,0 +1,23 @@
+{
+  "no_permission": "Du hast nicht die erforderlichen Berechtigungen, um diesen Befehl zu verwenden.",
+  "bot_no_permission": "Mir fehlen die folgenden Berechtigungen, um diesen Befehl auszuführen: {{missing}}",
+  "error_occurred": "Ein unerwarteter Fehler ist aufgetreten. Bitte melde dies auf unserem Support-Server. (`/support`)",
+  "error": "Beim Ausführen dieses Befehls ist ein Fehler aufgetreten. Bitte versuche es später erneut.",
+  "timed_out": "Die Interaktion ist zeitlich abgelaufen.",
+  "on_cooldown": "Du hast einen Cooldown.",
+  "no_voice": "Du bist in keinem Sprachkanal.",
+  "time_units": {
+    "week_singular": "Woche",
+    "week_plural": "Wochen",
+    "day_singular": "Tag",
+    "day_plural": "Tage",
+    "hour_singular": "Stunde",
+    "hour_plural": "Stunden",
+    "minute_singular": "Minute",
+    "minute_plural": "Minuten",
+    "second_singular": "Sekunde",
+    "second_plural": "Sekunden",
+    "and": "und",
+    "zero_seconds": "0 Sekunden"
+  }
+}

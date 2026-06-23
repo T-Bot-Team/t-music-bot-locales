@@ -1,0 +1,307 @@
+{
+    "botinfo":  {
+                    "name":  "botinfo",
+                    "description":  "Returns the bot\u0027s statistics and information."
+                },
+    "bugreport":  {
+                      "name":  "bugreport",
+                      "description":  "Report a bug you\u0027ve encountered with the bot."
+                  },
+    "clusters":  {
+                     "name":  "bands",
+                     "description":  "Shows the available bands and their stored data."
+                 },
+    "help":  {
+                 "name":  "help",
+                 "description":  "Provides information about all the available commands."
+             },
+    "history":  {
+                    "name":  "history",
+                    "description":  "Shows the last 5 songs played in this server."
+                },
+    "ping":  {
+                 "name":  "ping",
+                 "description":  "Fetches the current connection statistics!"
+             },
+    "privacy":  {
+                    "name":  "privacy",
+                    "description":  "Displays the bot\u0027s privacy policy and data settings.",
+                    "subcommands":  {
+                                        "policy":  {
+                                                       "name":  "policy",
+                                                       "description":  "View the bot\u0027s privacy policy."
+                                                   },
+                                        "optout":  {
+                                                       "name":  "optout",
+                                                       "description":  "Toggle data collection (leaderboard stats)."
+                                                   }
+                                    }
+                },
+    "topsongs":  {
+                     "name":  "topsongs",
+                     "description":  "Shows the most played songs of the bot."
+                 },
+    "topusers":  {
+                     "name":  "topusers",
+                     "description":  "Shows the most active users of the bot."
+                 },
+    "translation_progress":  {
+                                 "name":  "translationprogress",
+                                 "description":  "Shows the current translation progress for all languages."
+                             },
+    "jumpto":  {
+                   "name":  "jumpto",
+                   "description":  "Skips to a specific track in the queue.",
+                   "options":  {
+                                   "id":  "The ID of the track to jump to."
+                               }
+               },
+    "leave":  {
+                  "name":  "leave",
+                  "description":  "Stops the music and leaves the voice channel."
+              },
+    "loop":  {
+                 "name":  "loop",
+                 "description":  "Cycles through loop modes: Off, Track, and Queue."
+             },
+    "lyrics":  {
+                   "name":  "lyrics",
+                   "description":  "Fetches the lyrics for the current song or a specific one.",
+                   "options":  {
+                                   "song":  "The name of the song to search for."
+                               }
+               },
+    "nowplaying":  {
+                       "name":  "nowplaying",
+                       "description":  "Shows information about the track currently playing."
+                   },
+    "pause":  {
+                  "name":  "pause",
+                  "description":  "Pauses the current music playback."
+              },
+    "play":  {
+                 "name":  "play",
+                 "description":  "Searches and plays a track or playlist.",
+                 "options":  {
+                                 "track":  "The track name or URL to play."
+                             }
+             },
+    "playlist":  {
+                     "name":  "playlist",
+                     "description":  "Manage your custom playlists.",
+                     "subcommands":  {
+                                         "add":  {
+                                                     "name":  "add",
+                                                     "description":  "Add the current song or a search query to a playlist.",
+                                                     "options":  {
+                                                                     "id":  "The playlist ID.",
+                                                                     "track":  "Optional: Track to search and add."
+                                                                 }
+                                                 },
+                                         "create":  {
+                                                        "name":  "create",
+                                                        "description":  "Create a new custom playlist.",
+                                                        "options":  {
+                                                                        "name":  "The name of the playlist.",
+                                                                        "public":  "Whether the playlist should be public."
+                                                                    }
+                                                    },
+                                         "delete":  {
+                                                        "name":  "delete",
+                                                        "description":  "Delete one of your playlists.",
+                                                        "options":  {
+                                                                        "id":  "The playlist ID."
+                                                                    }
+                                                    },
+                                         "info":  {
+                                                      "name":  "info",
+                                                      "description":  "Get detailed information about a playlist.",
+                                                      "options":  {
+                                                                      "id":  "The playlist ID."
+                                                                  }
+                                                  },
+                                         "list":  {
+                                                      "name":  "list",
+                                                      "description":  "List all your created playlists."
+                                                  },
+                                         "play":  {
+                                                      "name":  "play",
+                                                      "description":  "Play one of your playlists.",
+                                                      "options":  {
+                                                                      "id":  "The playlist ID."
+                                                                  }
+                                                  },
+                                         "removetrack":  {
+                                                             "name":  "removetrack",
+                                                             "description":  "Remove a track from a playlist.",
+                                                             "options":  {
+                                                                             "id":  "The playlist ID.",
+                                                                             "track_id":  "The index of the track to remove."
+                                                                         }
+                                                         }
+                                     }
+                 },
+    "queue":  {
+                  "name":  "queue",
+                  "description":  "Displays the current server song queue."
+              },
+    "rejoin":  {
+                   "name":  "rejoin",
+                   "description":  "Makes the bot rejoin the voice channel."
+               },
+    "removetrack":  {
+                        "name":  "removetrack",
+                        "description":  "Removes a specific track from the queue.",
+                        "options":  {
+                                        "id":  "The index of the track to remove."
+                                    }
+                    },
+    "resume":  {
+                   "name":  "resume",
+                   "description":  "Resumes the paused music playback."
+               },
+    "search":  {
+                   "name":  "search",
+                   "description":  "Search for tracks and pick one to play.",
+                   "options":  {
+                                   "track":  "The name of the track to search for."
+                               }
+               },
+    "seek":  {
+                 "name":  "seek",
+                 "description":  "Seeks to a specific timestamp in the current track.",
+                 "options":  {
+                                 "time":  "The timestamp to seek to (e.g. 1:30)."
+                             }
+             },
+    "settings":  {
+                     "name":  "settings",
+                     "description":  "View or modify the bot\u0027s configuration for this server.",
+                     "subcommands":  {
+                                         "legacy_sources":  {
+                                                                "name":  "legacy_sources",
+                                                                "description":  "Toggle support for legacy external engines (Off by default).",
+                                                                "options":  {
+                                                                                "enabled":  "Whether to enable legacy external providers."
+                                                                            }
+                                                            },
+                                         "view":  {
+                                                      "name":  "view",
+                                                      "description":  "View the current server settings."
+                                                  }
+                                     }
+                 },
+    "setup":  {
+                  "name":  "setup",
+                  "description":  "Setup the music controller channel.",
+                  "options":  {
+                                  "channel":  "Optional: Existing text channel to use."
+                              }
+              },
+    "shuffle":  {
+                    "name":  "shuffle",
+                    "description":  "Shuffles the current server queue."
+                },
+    "skip":  {
+                 "name":  "skip",
+                 "description":  "Skips the current playing track."
+             },
+    "stop":  {
+                 "name":  "stop",
+                 "description":  "Stops playback and clears the queue."
+             },
+    "volume":  {
+                   "name":  "volume",
+                   "description":  "Adjusts the music volume.",
+                   "options":  {
+                                   "volume":  "Value between 1 and 100."
+                               }
+               },
+    "8d":  {
+               "name":  "8d",
+               "description":  "Applies the 8D filter."
+           },
+    "bassboost":  {
+                      "name":  "bassboost",
+                      "description":  "Applies the Bassboost filter."
+                  },
+    "clear":  {
+                  "name":  "clear",
+                  "description":  "Clears all the active filters."
+              },
+    "chorus":  {
+                   "name":  "chorus",
+                   "description":  "Adds a chorus effect to the music."
+               },
+    "echo":  {
+                 "name":  "echo",
+                 "description":  "Adds an echo effect to the music."
+             },
+    "electronic":  {
+                       "name":  "electronic",
+                       "description":  "Applies the Electronic filter."
+                   },
+    "gaming":  {
+                   "name":  "gaming",
+                   "description":  "Applies the Gaming filter."
+               },
+    "karaoke":  {
+                    "name":  "karaoke",
+                    "description":  "Applies the Karaoke filter."
+                },
+    "nightcore":  {
+                      "name":  "nightcore",
+                      "description":  "Applies the Nightcore filter."
+                  },
+    "phaser":  {
+                   "name":  "phaser",
+                   "description":  "Adds a phaser effect to the music."
+               },
+    "pop":  {
+                "name":  "pop",
+                "description":  "Applies the Pop filter."
+            },
+    "preset":  {
+                   "name":  "preset",
+                   "description":  "Apply a pre-configured audio preset.",
+                   "options":  {
+                                   "name":  "The preset to apply (e.g. party, chill, lofi)."
+                               }
+               },
+    "rock":  {
+                 "name":  "rock",
+                 "description":  "Applies the Rock filter."
+             },
+    "soft":  {
+                 "name":  "soft",
+                 "description":  "Applies the Soft filter."
+             },
+    "trebblebass":  {
+                        "name":  "trebblebass",
+                        "description":  "Applies the Trebblebass filter."
+                    },
+    "tremolo":  {
+                    "name":  "tremolo",
+                    "description":  "Applies the Tremolo filter."
+                },
+    "vaporwave":  {
+                      "name":  "vaporwave",
+                      "description":  "Applies the Vaporwave filter."
+                  },
+    "vibrato":  {
+                    "name":  "vibrato",
+                    "description":  "Applies the Vibrato filter."
+                },
+    "record":  {
+                   "name":  "record",
+                   "description":  "Starts recording the audio in the voice channel."
+               },
+    "stoprecord":  {
+                       "name":  "stoprecord",
+                       "description":  "Stops the current recording."
+                   },
+    "repeat":  {
+                   "name":  "repeat",
+                   "description":  "Restarts the current track or replays the last one."
+               }
+}

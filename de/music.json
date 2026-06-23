@@ -1,0 +1,222 @@
+{
+  "general": {
+    "no_voice": "Du bist in keinem Sprachkanal.",
+    "no_voice_access": "Ich kann deinen Sprachkanal nicht betreten oder ansehen.",
+    "not_in_same_channel": "Du bist nicht im selben Sprachkanal wie ich.",
+    "no_nodes": "Es sind keine Nodes verbunden.",
+    "no_queue": "In der Warteschlange befindet sich nichts. Füge einige Titel hinzu!"
+  },
+  "playlist": {
+    "title": "Playlist:",
+    "select_prompt": "Wähle die Playlist(s) aus, zu denen der Titel hinzugefügt werden soll.",
+    "select_placeholder": "Wähle eine oder mehrere Optionen.",
+    "paused": "Pausiert",
+    "playing": "Spielt",
+    "states": {
+      "title": "Status:",
+      "public": "Öffentlich",
+      "private": "Privat"
+    },
+    "created_list_title": "📜 | Deine erstellten Playlists",
+    "track_length": "({{tracks}} Titel)",
+    "not_found": "Die Playlist konnte nicht gefunden werden.",
+    "no_playlists": "Du hast noch keine Playlists erstellt.",
+    "not_owner": "Du bist nicht der Besitzer dieser Playlist. Du darfst sie nicht ansehen.",
+    "no_added_track": "Der Titel wurde keiner Playlist hinzugefügt, da er bereits existiert.",
+    "track_not_found": "Der Titel konnte nicht gefunden werden.",
+    "number_invalid": "Die Nummer muss {{range}} sein.",
+    "added_track": "Der Titel wurde erfolgreich hinzugefügt!",
+    "removed_track": "Der Titel wurde erfolgreich entfernt!",
+    "added_track_mass": "Der Titel wurde erfolgreich hinzugefügt!{{not_modified}}",
+    "added_playlist": "Die Titel aus **{{playlist}}** wurden erfolgreich hinzugefügt!",
+    "playing_playlist": "Spiele Playlist **{{playlist}}**",
+    "deleted_playlist": "Die Playlist **{{name}}** (`{{id}}`) wurde erfolgreich gelöscht!",
+    "created_playlist": "Die Playlist **{{name}}** (`{{id}}`) wurde als **{{state}}** erstellt."
+  },
+  "jumpto": {
+    "no_negative": "Titel haben keine negativen IDs, verwende eine korrekte Titel-ID und versuche es erneut.",
+    "no_current": "Du kannst nicht zu einem Song springen, der bereits gespielt wird.\nUm den aktuellen Song zu überspringen, verwende: `{{cmd}}`",
+    "not_found": "Die Warteschlange hat nicht so viele Titel.",
+    "success": "Erfolgreich zu ***{{song}}*** gesprungen!"
+  },
+  "leave": {
+    "no_channel": "Ich bin derzeit in keinem Sprachkanal. Wenn doch, versuche mich zu trennen.",
+    "success": "Ich habe den Sprachkanal erfolgreich **verlassen**!"
+  },
+  "loop": {
+    "no_queue": "Derzeit wird nichts abgespielt.",
+    "current_loop": "🎵| Aktuelle Wiederholung eingestellt auf: **{{mode}}**",
+    "loop_disabled": "Wiederholung wurde **deaktiviert**",
+    "success": "{{mode}}-Wiederholung wurde **aktiviert**",
+    "modes": {
+      "none": "Keine",
+      "track": "Titel",
+      "queue": "Warteschlange"
+    }
+  },
+  "lyrics": {
+    "no_song": "Derzeit wird nichts abgespielt.\nSuche mit einem Songnamen oder füge einen Titel zur Warteschlange hinzu.",
+    "no_lyrics": "Ich konnte keine Songtexte finden. Überprüfe die Schreibweise und versuche es erneut.",
+    "no_info": "Ich konnte keine zusätzlichen Informationen zum Song finden.{{tip}}",
+    "button_fail": "Diese Buttons sind nicht für dich!",
+    "embed": {
+      "title": "🎵 | Songtext",
+      "footer": "Seite {{current}} von {{total}}"
+    }
+  },
+  "nowplaying": {
+    "no_info": "Ich konnte keine Informationen über den aktuellen Titel abrufen.",
+    "loop": "Wiederholungsmodus:",
+    "playing": "| Aktuell gespielter Titel",
+    "requested_by": "Angefordert von {{user}}",
+    "live": "LIVE",
+    "created": "💾 | Erstellt von",
+    "queue_length": "🎵 | Warteschlangenlänge",
+    "no_tracks": "{{tracks}} Titel warten"
+  },
+  "pause": {
+    "already_paused": "Der Player ist bereits pausiert.",
+    "success": "Du hast den Player erfolgreich **pausiert**!"
+  },
+  "play": {
+    "no_channel": "Ich kann deinen Sprachkanal nicht betreten oder ansehen.",
+    "no_results": "Ich konnte keine Ergebnisse basierend auf deiner Anfrage finden.",
+    "no_results_error": "Ich konnte keine Ergebnisse für diese Anfrage finden. Versuche es erneut oder warte eine Weile.",
+    "added_playlist": "Playlist **{{name}}** mit **{{count}}** Titeln in die Warteschlange aufgenommen.",
+    "added_playlist_next": "Playlist **{{name}}** mit **{{count}}** Titeln wurde zur Wiedergabe als Nächstes eingereiht.",
+    "playing_playlist": "Spiele Playlist **{{name}}** mit **{{count}}** Titeln.",
+    "enqueued": "**{{track}}** in die Warteschlange aufgenommen",
+    "enqueued_next": "**{{track}}** wurde zur Wiedergabe als Nächstes eingereiht",
+    "playing": "Spiele **{{track}}**",
+    "tip_loop": "**Tipp:** Du kannst den aktuellen Titel/Warteschlange mit </loop:{{id}}> wiederholen."
+  },
+  "queue": {
+    "requested_by": "Angefordert von {{user}}",
+    "title": "🎵 | Aktuelle Song-Warteschlange",
+    "loop": "Wiederholungsmodus:",
+    "now_playing": "**Aktuelle Wiedergabe**",
+    "upcoming": ":arrow_down: | **Als nächstes**",
+    "fields": {
+      "length_title": "Warteschlangenlänge",
+      "total_duration": "{{time}} insgesamt",
+      "tracks_title": "Eingereihte Titel",
+      "total_tracks": "{{count_text}}"
+    },
+    "tracks_shown": "{{count}} angezeigt",
+    "tracks_on_list": "{{count}} in der Liste",
+    "total": "Gesamt: {{count}}",
+    "left": "{{time}} verbleibend"
+  },
+  "rejoin": {
+    "not_in_same_vc": "Ich bin nicht allein, tritt zuerst meinem Sprachkanal bei.",
+    "success": "Erfolgreich verbunden!"
+  },
+  "history": {
+    "title": "📜 | Kürzlich gespielte Titel",
+    "none": "In diesem Server wurden noch keine Titel gespielt.",
+    "footer": "Letzte 5 Songs"
+  },
+  "removetrack": {
+    "no_negative": "Titel-IDs können nicht negativ sein. Bitte verwende eine gültige Titel-ID.",
+    "already_playing": "Du kannst keinen Song entfernen, der bereits gespielt wird.\nUm den aktuellen Song zu überspringen, verwende: `/skip`",
+    "not_found": "Der angegebene Titel konnte nicht gefunden werden.",
+    "success": "Du hast **{{title}}** erfolgreich aus der Warteschlange entfernt."
+  },
+  "resume": {
+    "not_paused": "Der Player ist nicht pausiert.",
+    "success": "Du hast den Player erfolgreich **fortgesetzt**!"
+  },
+  "search": {
+    "no_search": "Verwende den Befehl `/play`, um eine bestimmte {{option}} abzuspielen!",
+    "title": "🔍 | Suche - Titelauswahl",
+    "footer": "Drücke innerhalb von 20 Sekunden einen Button, um einen Titel auszuwählen.",
+    "no_selection": "Du hast keines der Ergebnisse ausgewählt. Die Auswahl wurde abgebrochen."
+  },
+  "seek": {
+    "not_valid": "Das ist kein gültiges Zeitformat.",
+    "live": "In einem Live-Stream kann nicht gespult werden.",
+    "exceeds_length": "Du kannst nicht über die Titeldauer hinaus spulen.",
+    "success": "Erfolgreich zu **{{time}}** gespult"
+  },
+  "setup": {
+    "missing_channels_perm": "Ich benötige die Berechtigung **Kanäle verwalten**, um einen neuen Kanal zu erstellen",
+    "missing_role_perm": "Ich kann den Kanal nicht mit den richtigen Berechtigungen erstellen. Ich benötige die Berechtigung `Rollen verwalten`.",
+    "missing_required_perms": "Ich benötige die folgenden Berechtigungen, um diesen Befehl auszuführen: `Kanäle ansehen`, `Nachrichten senden`, `Links einbetten`",
+    "unable_to_set_parent": "Ich kann einige Berechtigungen für den Kanal nicht festlegen.\nDer Kanal wird oben in der Kanalliste erscheinen.",
+    "unable_to_send": "Ich kann keine Nachrichten an den angegebenen Kanal senden.",
+    "legacy_on": "✅ | **Legacy-Engines** wurden für diesen Server **aktiviert**. Bitte stelle die Einhaltung externer Bedingungen sicher.",
+    "legacy_off": "✅ | **Legacy-Engines** wurden für diesen Server **deaktiviert** (wechselt zu Standard-Engines).",
+    "success": "Der Musik-Player wurde erfolgreich in **{{channel}}** eingerichtet",
+    "tip": {
+        "title": "📌 | **Tipp für ein besseres Erlebnis**",
+        "description": "Um diesen Kanal sauber zu halten, empfehlen wir, die Berechtigung **'Nachrichten senden'** für `@everyone` in den Einstellungen dieses Kanals zu deaktivieren. Dies stellt sicher, dass der Musik-Controller am Ende des Kanals leicht zugänglich bleibt.",
+        "footer": "ℹ️ | **Du kannst diese Nachricht jederzeit löschen.**"
+    }
+  },
+  "shuffle": {
+    "not_enough_tracks": "Es müssen mindestens 3 Titel in der Warteschlange sein, um zu mischen.",
+    "success": "Die Warteschlange wurde erfolgreich **gemischt**."
+  },
+  "stop": {
+    "success": "Der Player wurde erfolgreich **gestoppt**."
+  },
+  "preset": {
+    "success": "Die Voreinstellung **{{name}}** wurde erfolgreich **angewendet**!"
+  },
+  "skip": {
+    "no_queue": "Der Titel kann nicht übersprungen werden. In der Warteschlange befindet sich nichts.",
+    "success": "Titel **{{title}}** übersprungen"
+  },
+  "volume": {
+    "current_volume": "ℹ️ | Die aktuelle Lautstärke beträgt **{{volume}}%**",
+    "invalid_volume": "Du musst einen Wert zwischen 1% - 100% einstellen",
+    "no_mute": "Du kannst die Lautstärke nicht auf 0% einstellen.",
+    "success": "Du hast die Lautstärke erfolgreich auf `{{volume}}%` eingestellt"
+  },
+  "player": {
+    "buttons": {
+      "play": "Abspielen",
+      "pause": "Pause",
+      "resume": "Fortsetzen",
+      "skip": "Überspringen",
+      "stop": "Stopp",
+      "volume_up": "Lautstärke [+]",
+      "volume_down": "Lautstärke [-]",
+      "add_track": "Titel hinzufügen",
+      "add_to_playlist": "Zu Playlist hinzufügen",
+      "view_queue": "Warteschlange anzeigen",
+      "shuffle": "Mischen",
+      "loop": "Wiederholen",
+      "back": "Zurück",
+      "delete": "Löschen",
+      "forward": "Vorwärts",
+      "lyrics": "Songtext",
+      "queue": "Warteschlange",
+      "like": "Gefällt mir"
+    },
+    "idle": {
+      "title": "Musik-Player - Leerlauf",
+      "description": "Niemand ist derzeit im Sprachkanal. Der Player ist nun im **Leerlauf**.\\nWenn in den nächsten **10 Minuten** niemand dem Sprachkanal beitritt, wird der Player **gestoppt**.",
+      "button": "Aktivieren"
+    },
+    "inactive": {
+      "title": "Musik-Player - Inaktiv",
+      "description": "Der Musik-Player ist derzeit **inaktiv**.\\nUm ihn zu aktivieren, **klicke auf die Schaltfläche unten**, um nach einem Titel zu suchen!",
+      "button": "Suchen & Abspielen"
+    },
+    "info": {
+      "uploader": "Uploader",
+      "requester": "Anforderer",
+      "next": "Als nächstes"
+    },
+    "filters": {
+      "reset": "Alle zurücksetzen",
+      "title": "Audio-Filter"
+    }
+  },
+  "repeat": {
+    "no_history": "Ich konnte keinen Titelverlauf zum Wiederholen finden.",
+    "success_replay": "Der zuletzt gespielte Titel wird erneut abgespielt: **{{track}}**",
+    "success_seek": "Der aktuelle Titel wurde erfolgreich neu gestartet!"
+  }
+}

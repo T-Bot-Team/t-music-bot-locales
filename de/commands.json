@@ -1,0 +1,307 @@
+{
+  "botinfo": {
+    "name": "botinfo",
+    "description": "Gibt die Statistiken und Informationen des Bots zurück."
+  },
+  "bugreport": {
+    "name": "fehlerbericht",
+    "description": "Melde einen Fehler, den du beim Bot gefunden hast."
+  },
+  "clusters": {
+    "name": "bands",
+    "description": "Zeigt die verfügbaren Bands und deren gespeicherte Daten an."
+  },
+  "help": {
+    "name": "hilfe",
+    "description": "Bietet Informationen über alle verfügbaren Befehle."
+  },
+  "history": {
+    "name": "verlauf",
+    "description": "Zeigt die letzten 5 in diesem Server gespielten Songs an."
+  },
+  "ping": {
+    "name": "ping",
+    "description": "Ruft die aktuellen Verbindungsstatistiken ab!"
+  },
+  "privacy": {
+    "name": "datenschutz",
+    "description": "Zeigt die Datenschutzrichtlinie und Dateneinstellungen des Bots an.",
+    "subcommands": {
+      "policy": {
+        "name": "richtlinie",
+        "description": "Zeigt die Datenschutzrichtlinie des Bots an."
+      },
+      "optout": {
+        "name": "abmelden",
+        "description": "Schaltet die Datenerfassung (Bestenlisten-Statistiken) um."
+      }
+    }
+  },
+  "topsongs": {
+    "name": "topsongs",
+    "description": "Zeigt die am häufigsten gespielten Songs des Bots."
+  },
+  "topusers": {
+    "name": "topusers",
+    "description": "Zeigt die aktivsten Benutzer des Bots."
+  },
+  "translation_progress": {
+    "name": "übersetzungsstatus",
+    "description": "Zeigt den aktuellen Übersetzungsfortschritt für alle Sprachen an."
+  },
+  "jumpto": {
+    "name": "springezu",
+    "description": "Springt zu einem bestimmten Titel in der Warteschlange.",
+    "options": {
+      "id": "Die ID des Titels, zu dem gesprungen werden soll."
+    }
+  },
+  "leave": {
+    "name": "verlassen",
+    "description": "Stoppt die Musik und verlässt den Sprachkanal."
+  },
+  "loop": {
+    "name": "wiederholen",
+    "description": "Wechselt durch die Wiederholungsmodi: Aus, Titel und Warteschlange."
+  },
+  "lyrics": {
+    "name": "songtext",
+    "description": "Ruft den Songtext für das aktuelle Lied oder ein bestimmtes Lied ab.",
+    "options": {
+      "song": "Der Name des Liedes, nach dem gesucht werden soll."
+    }
+  },
+  "nowplaying": {
+    "name": "aktuell",
+    "description": "Zeigt Informationen über den aktuell gespielten Titel an."
+  },
+  "pause": {
+    "name": "pause",
+    "description": "Pausiert die aktuelle Musikwiedergabe."
+  },
+  "play": {
+    "name": "abspielen",
+    "description": "Sucht und spielt einen Titel oder eine Playlist ab.",
+    "options": {
+      "track": "Der Titelname oder die URL zum Abspielen."
+    }
+  },
+  "playlist": {
+    "name": "playlist",
+    "description": "Verwalte deine benutzerdefinierten Playlists.",
+    "subcommands": {
+      "add": {
+        "name": "hinzufügen",
+        "description": "Füge den aktuellen Song oder eine Suchanfrage zu einer Playlist hinzu.",
+        "options": {
+          "id": "Die Playlist-ID.",
+          "track": "Optional: Titel zum Suchen und Hinzufügen."
+        }
+      },
+      "create": {
+        "name": "erstellen",
+        "description": "Erstelle eine neue benutzerdefinierte Playlist.",
+        "options": {
+          "name": "Der Name der Playlist.",
+          "public": "Ob die Playlist öffentlich sein soll."
+        }
+      },
+      "delete": {
+        "name": "löschen",
+        "description": "Lösche eine deiner Playlists.",
+        "options": {
+          "id": "Die Playlist-ID."
+        }
+      },
+      "info": {
+        "name": "info",
+        "description": "Erhalte detaillierte Informationen über eine Playlist.",
+        "options": {
+          "id": "Die Playlist-ID."
+        }
+      },
+      "list": {
+        "name": "liste",
+        "description": "Liste alle deine erstellten Playlists auf."
+      },
+      "play": {
+        "name": "abspielen",
+        "description": "Spiele eine deiner Playlists ab.",
+        "options": {
+          "id": "Die Playlist-ID."
+        }
+      },
+      "removetrack": {
+        "name": "titel_entfernen",
+        "description": "Entferne einen Titel aus einer Playlist.",
+        "options": {
+          "id": "Die Playlist-ID.",
+          "track_id": "Der Index des zu entfernenden Titels."
+        }
+      }
+    }
+  },
+  "queue": {
+    "name": "warteschlange",
+    "description": "Zeigt die aktuelle Song-Warteschlange des Servers an."
+  },
+  "rejoin": {
+    "name": "erneut_beitreten",
+    "description": "Lässt den Bot dem Sprachkanal erneut beitreten."
+  },
+  "removetrack": {
+    "name": "titel_entfernen",
+    "description": "Entfernt einen bestimmten Titel aus der Warteschlange.",
+    "options": {
+      "id": "Der Index des zu entfernenden Titels."
+    }
+  },
+  "resume": {
+    "name": "fortsetzen",
+    "description": "Setzt die pausierte Musikwiedergabe fort."
+  },
+  "search": {
+    "name": "suche",
+    "description": "Suche nach Titeln und wähle einen zum Abspielen aus.",
+    "options": {
+      "track": "Der Name des Titels, nach dem gesucht werden soll."
+    }
+  },
+  "seek": {
+    "name": "vorspulen",
+    "description": "Springt zu einem bestimmten Zeitstempel im aktuellen Titel.",
+    "options": {
+      "time": "Der Zeitstempel (z.B. 1:30)."
+    }
+  },
+  "settings": {
+    "name": "einstellungen",
+    "description": "Zeige oder ändere die Konfiguration des Bots für diesen Server.",
+    "subcommands": {
+      "legacy_sources": {
+        "name": "legacy_quellen",
+        "description": "Unterstützung für Legacy-Engines umschalten (standardmäßig Aus).",
+        "options": {
+          "enabled": "Ob Legacy-Quellen aktiviert werden sollen."
+        }
+      },
+      "view": {
+        "name": "anzeigen",
+        "description": "Die aktuellen Server-Einstellungen anzeigen."
+      }
+    }
+  },
+  "setup": {
+    "name": "einrichten",
+    "description": "Richtet den Musik-Controller-Kanal ein.",
+    "options": {
+      "channel": "Optional: Vorhandener Textkanal."
+    }
+  },
+  "shuffle": {
+    "name": "mischen",
+    "description": "Mischt die aktuelle Warteschlange des Servers."
+  },
+  "skip": {
+    "name": "überspringen",
+    "description": "Überspringt den aktuell gespielten Titel."
+  },
+  "stop": {
+    "name": "stopp",
+    "description": "Stoppt die Wiedergabe und leert die Warteschlange."
+  },
+  "volume": {
+    "name": "lautstärke",
+    "description": "Passt die Musiklautstärke an.",
+    "options": {
+      "volume": "Wert zwischen 1 und 100."
+    }
+  },
+  "8d": {
+    "name": "8d",
+    "description": "Wendet den 8D-Filter an."
+  },
+  "bassboost": {
+    "name": "bassboost",
+    "description": "Wendet den Bassboost-Filter an."
+  },
+  "clear": {
+    "name": "leeren",
+    "description": "Löscht alle aktiven Filter."
+  },
+  "chorus": {
+    "name": "chorus",
+    "description": "Fügt der Musik einen Chorus-Effekt hinzu."
+  },
+  "echo": {
+    "name": "echo",
+    "description": "Fügt der Musik einen Echo-Effekt hinzu."
+  },
+  "electronic": {
+    "name": "electronic",
+    "description": "Wendet den Electronic-Filter an."
+  },
+  "gaming": {
+    "name": "gaming",
+    "description": "Wendet den Gaming-Filter an."
+  },
+  "karaoke": {
+    "name": "karaoke",
+    "description": "Wendet den Karaoke-Filter an."
+  },
+  "nightcore": {
+    "name": "nightcore",
+    "description": "Wendet den Nightcore-Filter an."
+  },
+  "phaser": {
+    "name": "phaser",
+    "description": "Fügt der Musik einen Phaser-Effekt hinzu."
+  },
+  "pop": {
+    "name": "pop",
+    "description": "Wendet den Pop-Filter an."
+  },
+  "preset": {
+    "name": "voreinstellung",
+    "description": "Wende eine vorkonfigurierte Audio-Voreinstellung an.",
+    "options": {
+      "name": "Die anzuwendende Voreinstellung (z. B. Party, Chill, Lofi)."
+    }
+  },
+  "rock": {
+    "name": "rock",
+    "description": "Wendet den Rock-Filter an."
+  },
+  "soft": {
+    "name": "soft",
+    "description": "Wendet den Soft-Filter an."
+  },
+  "trebblebass": {
+    "name": "trebblebass",
+    "description": "Wendet den Trebblebass-Filter an."
+  },
+  "tremolo": {
+    "name": "tremolo",
+    "description": "Wendet den Tremolo-Filter an."
+  },
+  "vaporwave": {
+    "name": "vaporwave",
+    "description": "Wendet den Vaporwave-Filter an."
+  },
+  "vibrato": {
+    "name": "vibrato",
+    "description": "Wendet den Vibrato-Filter an."
+  },
+  "record": {
+    "name": "aufnehmen",
+    "description": "Startet die Audioaufnahme im Sprachkanal."
+  },
+  "stoprecord": {
+    "name": "aufnahme_stoppen",
+    "description": "Stoppt die aktuelle Aufnahme."
+  },
+  "repeat": {
+    "name": "erneut_abspielen",
+    "description": "Startet den aktuellen Titel neu oder spielt den letzten erneut ab."
+  }
+}

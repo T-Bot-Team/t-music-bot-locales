@@ -1,0 +1,222 @@
+{
+    "general":  {
+                    "no_voice":  "You are not in a voice channel.",
+                    "no_voice_access":  "I cannot connect or view your voice channel.",
+                    "not_in_same_channel":  "You are not in the same voice channel as me.",
+                    "no_nodes":  "There are no nodes connected.",
+                    "no_queue":  "There is nothing in queue. Add some tracks!"
+                },
+    "playlist":  {
+                     "title":  "Playlist:",
+                     "select_prompt":  "Select the playlist(s) to add the track to.",
+                     "select_placeholder":  "Select one or more options.",
+                     "paused":  "Paused",
+                     "playing":  "Playing",
+                     "states":  {
+                                    "title":  "State:",
+                                    "public":  "Public",
+                                    "private":  "Private"
+                                },
+                     "created_list_title":  "📜 | Your Created Playlists",
+                     "track_length":  "({{tracks}} tracks)",
+                     "not_found":  "The playlist could not be found.",
+                     "no_playlists":  "You have not created any playlists.",
+                     "not_owner":  "You are not the owner of this playlist. You are not allowed to view it.",
+                     "no_added_track":  "The track has not been added to any playlist since it already exists.",
+                     "track_not_found":  "The track could not be found.",
+                     "number_invalid":  "The number must be {{range}}.",
+                     "added_track":  "The track has been added successfully!",
+                     "removed_track":  "The track has been removed successfully!",
+                     "added_track_mass":  "The track has been added successfully!{{not_modified}}",
+                     "added_playlist":  "The tracks from **{{playlist}}** have been successfully added!",
+                     "playing_playlist":  "Playing playlist **{{playlist}}**",
+                     "deleted_playlist":  "The playlist **{{name}}** (`{{id}}`) has been successfully deleted!",
+                     "created_playlist":  "The playlist **{{name}}** (`{{id}}`) has been created as **{{state}}**."
+                 },
+    "jumpto":  {
+                   "no_negative":  "Tracks do not have negative IDs, use a proper track ID and try again.",
+                   "no_current":  "You cannot skip to a song that is already playing.\nTo skip the current song use: `{{cmd}}`",
+                   "not_found":  "The queue does not have that many tracks.",
+                   "success":  "Skipped to ***{{song}}*** successfully!"
+               },
+    "leave":  {
+                  "no_channel":  "I am not currently in a voice channel. If I am, try disconnecting me.",
+                  "success":  "I have successfully **left** the voice channel!"
+              },
+    "loop":  {
+                 "no_queue":  "There is nothing playing currently.",
+                 "current_loop":  "🎵| Current loop set to: **{{mode}}**",
+                 "loop_disabled":  "Loop has been **disabled**",
+                 "success":  "{{mode}} repeat has been **enabled**",
+                 "modes":  {
+                               "none":  "None",
+                               "track":  "Track",
+                               "queue":  "Queue"
+                           }
+             },
+    "lyrics":  {
+                   "no_song":  "There is nothing playing currently.\nSearch using a song name or add a track to the queue.",
+                   "no_lyrics":  "I could not find any lyrics. Check the spelling and try again.",
+                   "no_info":  "I could not find additional info on the song.{{tip}}",
+                   "button_fail":  "These buttons are not for you!",
+                   "embed":  {
+                                 "title":  "🎶 | Track Lyrics",
+                                 "footer":  "Page {{current}} of {{total}}"
+                             }
+               },
+    "nowplaying":  {
+                       "no_info":  "I could not get any information about the current track.",
+                       "loop":  "Loop Mode:",
+                       "playing":  "| Currently Playing Track",
+                       "requested_by":  "Requested by {{user}}",
+                       "live":  "live",
+                       "created":  "💾 | Created by",
+                       "queue_length":  "🎵 | Queue length",
+                       "no_tracks":  "{{tracks}} tracks waiting"
+                   },
+    "pause":  {
+                  "already_paused":  "The player is already paused.",
+                  "success":  "You have successfully **paused** the player!"
+              },
+    "play":  {
+                 "no_channel":  "I cannot connect or view your voice channel.",
+                 "no_results":  "I couldn\u0027t find any results based on your query.",
+                 "no_results_error":  "I couldn\u0027t find any results for that query. Try again or wait some time.",
+                 "added_playlist":  "Enqueued playlist **{{name}}** with **{{count}}** tracks.",
+                 "added_playlist_next":  "Enqueued playlist **{{name}}** with **{{count}}** tracks to play next.",
+                 "playing_playlist":  "Playing playlist **{{name}}** with **{{count}}** tracks.",
+                 "enqueued":  "Enqueued **{{track}}**",
+                 "enqueued_next":  "Enqueued **{{track}}** to play next",
+                 "playing":  "Playing **{{track}}**",
+                 "tip_loop":  "**Tip:** You can loop the current track/queue by using \u003c/loop:{{id}}\u003e."
+             },
+    "queue":  {
+                  "requested_by":  "Requested by {{user}}",
+                  "title":  "Current Song Queue",
+                  "loop":  "Loop Mode:",
+                  "now_playing":  "**Now Playing**",
+                  "upcoming":  ":arrow_down: | **Upcoming Next**",
+                  "fields":  {
+                                 "length_title":  "Queue Length",
+                                 "total_duration":  "{{time}} in total",
+                                 "tracks_title":  "Queued Tracks",
+                                 "total_tracks":  "{{count_text}}"
+                             },
+                  "tracks_shown":  "{{count}} shown",
+                  "tracks_on_list":  "{{count}} on list",
+                  "total":  "Total: {{count}}",
+                  "left":  "{{time}} left"
+              },
+    "rejoin":  {
+                   "not_in_same_vc":  "I am not alone, join my voice channel first.",
+                   "success":  "Connected successfully!"
+               },
+    "history":  {
+                    "title":  "📜 | Recently Played Tracks",
+                    "none":  "No tracks have been played in this server yet.",
+                    "footer":  "Last 5 songs"
+                },
+    "removetrack":  {
+                        "no_negative":  "Track IDs cannot be negative. Please use a valid track ID.",
+                        "already_playing":  "You cannot remove a song that is already playing.\nTo skip the current song use: `/skip`",
+                        "not_found":  "The specified track could not be found.",
+                        "success":  "You have successfully removed **{{title}}** from the queue."
+                    },
+    "resume":  {
+                   "not_paused":  "The player is not paused.",
+                   "success":  "You have successfully **resumed** the player!"
+               },
+    "search":  {
+                   "no_search":  "Use the `/play` command to play a specific {{option}}!",
+                   "title":  "🔍 | Search - Track Selection",
+                   "footer":  "Press a button to select a track within 20 seconds.",
+                   "no_selection":  "You did not choose one of the results. Selection has been cancelled."
+               },
+    "seek":  {
+                 "not_valid":  "That is not a valid time format.",
+                 "live":  "You cannot seek a live stream.",
+                 "exceeds_length":  "You cannot seek past the track duration.",
+                 "success":  "Successfully seeked to **{{time}}**"
+             },
+    "setup":  {
+                  "missing_channels_perm":  "I need the **Manage Channels** permission to create a new channel",
+                  "missing_role_perm":  "I cannot create the channel with the proper permissions. I need the `Manage Roles` permission.",
+                  "missing_required_perms":  "I need the following permissions to run this command: `View Channels`, `Send Messages`, `Embed Links`",
+                  "unable_to_set_parent":  "I am not able to set some permissions for the channel.\nThe channel will appear in top of the channel list.",
+                  "unable_to_send":  "I cannot send messages to the specified channel.",
+                  "legacy_on":  "✅ | **Legacy engines** have been **enabled** for this server. Please ensure compliance with external terms.",
+                  "legacy_off":  "✅ | **Legacy engines** have been **disabled** for this server (defaulting to primary engines).",
+                  "success":  "Successfully set up the music player in **{{channel}}**",
+                  "tip":  {
+                              "title":  "📌 | **Tip for a better experience**",
+                              "description":  "To keep this channel clean, we recommend disabling the **\u0027Send Messages\u0027** permission for `@everyone` in this channel\u0027s settings. This ensures the music controller remains easily accessible at the bottom of the channel.",
+                              "footer":  "ℹ️ | **You can delete this message at any time.**"
+                          }
+              },
+    "shuffle":  {
+                    "not_enough_tracks":  "There must be at least 3 tracks in the queue to shuffle.",
+                    "success":  "The queue has been successfully **shuffled**."
+                },
+    "stop":  {
+                 "success":  "The player has been successfully **stopped**."
+             },
+    "preset":  {
+                   "success":  "The **{{name}}** preset has been successfully **applied**!"
+               },
+    "skip":  {
+                 "no_queue":  "The track cannot be skipped. There is nothing in queue.",
+                 "success":  "Skipped track **{{title}}**"
+             },
+    "volume":  {
+                   "current_volume":  "ℹ️ | The current volume is **{{volume}}%**",
+                   "invalid_volume":  "You need to set a value between 1% - 100%",
+                   "no_mute":  "You cannot set the volume to 0%.",
+                   "success":  "You have successfully set the volume to `{{volume}}%`"
+               },
+    "player":  {
+                   "buttons":  {
+                                   "play":  "Play",
+                                   "pause":  "Pause",
+                                   "resume":  "Resume",
+                                   "skip":  "Skip",
+                                   "stop":  "Stop",
+                                   "volume_up":  "Volume [+]",
+                                   "volume_down":  "Volume [-]",
+                                   "add_track":  "Add Track(s)",
+                                   "add_to_playlist":  "Add to Playlist",
+                                   "view_queue":  "View Queue",
+                                   "shuffle":  "Shuffle",
+                                   "loop":  "Loop",
+                                   "back":  "Back",
+                                   "delete":  "Delete",
+                                   "forward":  "Forward",
+                                   "lyrics":  "Lyrics",
+                                   "queue":  "Queue",
+                                   "like":  "Like"
+                               },
+                   "idle":  {
+                                "title":  "Music Player - Player Idle",
+                                "description":  "No one is currently in the voice channel. The player is now **idle**.\\nIf no user joins the voice channel in **10 minutes**, the player will be **stopped**.",
+                                "button":  "Activate"
+                            },
+                   "inactive":  {
+                                    "title":  "Music Player - Inactive",
+                                    "description":  "The music player is currently **inactive**.\\nTo activate it, **click the button below** to search for a track!",
+                                    "button":  "Search \u0026 Play"
+                                },
+                   "info":  {
+                                "uploader":  "Uploader",
+                                "requester":  "Requester",
+                                "next":  "Next Up"
+                            },
+                   "filters":  {
+                                   "reset":  "Reset All",
+                                   "title":  "Audio Filters"
+                               }
+               },
+    "repeat":  {
+                   "no_history":  "I couldn\u0027t find any track history to replay.",
+                   "success_replay":  "Replaying the last played track: **{{track}}**",
+                   "success_seek":  "Successfully restarted the current track!"
+               }
+}

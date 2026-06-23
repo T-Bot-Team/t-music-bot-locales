@@ -1,0 +1,307 @@
+{
+  "botinfo": {
+    "name": "botinfo",
+    "description": "Muestra las estadÃ­sticas e informaciÃ³n del bot."
+  },
+  "bugreport": {
+    "name": "reportar_error",
+    "description": "Reporta un error que hayas encontrado con el bot."
+  },
+  "clusters": {
+    "name": "bandas",
+    "description": "Muestra las bandas disponibles y sus datos almacenados."
+  },
+  "help": {
+    "name": "ayuda",
+    "description": "Proporciona informaciÃ³n sobre todos los comandos disponibles."
+  },
+  "history": {
+    "name": "historial",
+    "description": "Muestra las Ãºltimas 5 canciones reproducidas en este servidor."
+  },
+  "ping": {
+    "name": "ping",
+    "description": "Â¡Obtiene las estadÃ­sticas de conexiÃ³n actuales!"
+  },
+  "privacy": {
+    "name": "privacidad",
+    "description": "Muestra la polÃ­tica de privacidad y la configuraciÃ³n de datos del bot.",
+    "subcommands": {
+      "policy": {
+        "name": "politica",
+        "description": "Ver la polÃ­tica de privacidad del bot."
+      },
+      "optout": {
+        "name": "excluir",
+        "description": "Alternar la recopilaciÃ³n de datos (estadÃ­sticas de la tabla de clasificaciÃ³n)."
+      }
+    }
+  },
+  "topsongs": {
+    "name": "top_canciones",
+    "description": "Muestra las canciones mÃ¡s reproducidas del bot."
+  },
+  "topusers": {
+    "name": "top_usuarios",
+    "description": "Muestra los usuarios mÃ¡s activos del bot."
+  },
+  "translation_progress": {
+    "name": "progreso_traduccion",
+    "description": "Muestra el progreso actual de la traducciÃ³n para todos los idiomas."
+  },
+  "jumpto": {
+    "name": "saltar_a",
+    "description": "Salta a una canciÃ³n especÃ­fica en la cola.",
+    "options": {
+      "id": "El ID de la canciÃ³n a la que saltar."
+    }
+  },
+  "leave": {
+    "name": "salir",
+    "description": "Detiene la mÃºsica y abandona el canal de voz."
+  },
+  "loop": {
+    "name": "bucle",
+    "description": "Alterna entre los modos de bucle: Desactivado, CanciÃ³n y Cola."
+  },
+  "lyrics": {
+    "name": "letra",
+    "description": "Obtiene la letra de la canciÃ³n actual o de una especÃ­fica.",
+    "options": {
+      "song": "El nombre de la canciÃ³n a buscar."
+    }
+  },
+  "nowplaying": {
+    "name": "reproduciendo",
+    "description": "Muestra informaciÃ³n sobre la canciÃ³n que se estÃ¡ reproduciendo."
+  },
+  "pause": {
+    "name": "pausa",
+    "description": "Pausa la reproducciÃ³n de mÃºsica actual."
+  },
+  "play": {
+    "name": "reproducir",
+    "description": "Busca y reproduce una canciÃ³n o lista de reproducciÃ³n.",
+    "options": {
+      "track": "El nombre o URL de la canciÃ³n a reproducir."
+    }
+  },
+  "playlist": {
+    "name": "lista",
+    "description": "Gestiona tus listas de reproducciÃ³n personalizadas.",
+    "subcommands": {
+      "add": {
+        "name": "aÃ±adir",
+        "description": "AÃ±ade la canciÃ³n actual o una bÃºsqueda a una lista.",
+        "options": {
+          "id": "El ID de la lista.",
+          "track": "Opcional: CanciÃ³n a buscar y aÃ±adir."
+        }
+      },
+      "create": {
+        "name": "crear",
+        "description": "Crea una nueva lista de reproducciÃ³n personalizada.",
+        "options": {
+          "name": "El nombre de la lista.",
+          "public": "Si la lista debe ser pÃºblica."
+        }
+      },
+      "delete": {
+        "name": "eliminar",
+        "description": "Elimina una de tus listas de reproducciÃ³n.",
+        "options": {
+          "id": "El ID de la lista."
+        }
+      },
+      "info": {
+        "name": "info",
+        "description": "Obtiene informaciÃ³n detallada sobre una lista.",
+        "options": {
+          "id": "El ID de la lista."
+        }
+      },
+      "list": {
+        "name": "listar",
+        "description": "Enumera todas tus listas de reproducciÃ³n creadas."
+      },
+      "play": {
+        "name": "reproducir",
+        "description": "Reproduce una de tus listas de reproducciÃ³n.",
+        "options": {
+          "id": "El ID de la lista."
+        }
+      },
+      "removetrack": {
+        "name": "quitar_cancion",
+        "description": "Quita una canciÃ³n de una lista.",
+        "options": {
+          "id": "El ID de la lista.",
+          "track_id": "El Ã­ndice de la canciÃ³n a quitar."
+        }
+      }
+    }
+  },
+  "queue": {
+    "name": "cola",
+    "description": "Muestra la cola de canciones actual del servidor."
+  },
+  "rejoin": {
+    "name": "reunir",
+    "description": "Hace que el bot se vuelva a unir al canal de voz."
+  },
+  "removetrack": {
+    "name": "quitar",
+    "description": "Quita una canciÃ³n especÃ­fica de la cola.",
+    "options": {
+      "id": "El Ã­ndice de la canciÃ³n a quitar."
+    }
+  },
+  "resume": {
+    "name": "reanudar",
+    "description": "Reanuda la reproducciÃ³n de mÃºsica pausada."
+  },
+  "search": {
+    "name": "buscar",
+    "description": "Busca canciones y elige una para reproducir.",
+    "options": {
+      "track": "El nombre de la canciÃ³n a buscar."
+    }
+  },
+  "seek": {
+    "name": "ir_a",
+    "description": "Salta a un momento especÃ­fico en la canciÃ³n actual.",
+    "options": {
+      "time": "El tiempo al que saltar (ej. 1:30)."
+    }
+  },
+  "settings": {
+    "name": "ajustes",
+    "description": "Ver o modificar la configuraciÃ³n del bot para este servidor.",
+    "subcommands": {
+      "legacy_sources": {
+        "name": "motores_heredados",
+        "description": "Alternar el soporte para motores externos heredados (Desactivado por defecto).",
+        "options": {
+          "enabled": "Si se deben activar los motores heredados."
+        }
+      },
+      "view": {
+        "name": "ver",
+        "description": "Ver los ajustes actuales del servidor."
+      }
+    }
+  },
+  "setup": {
+    "name": "configurar",
+    "description": "Configura el canal del controlador de mÃºsica.",
+    "options": {
+      "channel": "Opcional: Canal de texto existente para usar."
+    }
+  },
+  "shuffle": {
+    "name": "mezclar",
+    "description": "Mezcla la cola actual del servidor."
+  },
+  "skip": {
+    "name": "saltar",
+    "description": "Salta la canciÃ³n que se estÃ¡ reproduciendo."
+  },
+  "stop": {
+    "name": "detener",
+    "description": "Detiene la reproducciÃ³n y limpia la cola."
+  },
+  "volume": {
+    "name": "volumen",
+    "description": "Ajusta el volumen de la mÃºsica.",
+    "options": {
+      "volume": "Valor entre 1 y 100."
+    }
+  },
+  "8d": {
+    "name": "8d",
+    "description": "Aplica el filtro 8D."
+  },
+  "bassboost": {
+    "name": "bassboost",
+    "description": "Aplica el filtro Bassboost."
+  },
+  "clear": {
+    "name": "limpiar",
+    "description": "Limpia todos los filtros activos."
+  },
+  "chorus": {
+    "name": "chorus",
+    "description": "AÃ±ade un efecto de coro a la mÃºsica."
+  },
+  "echo": {
+    "name": "echo",
+    "description": "AÃ±ade un efecto de eco a la mÃºsica."
+  },
+  "electronic": {
+    "name": "electronic",
+    "description": "Aplica el filtro Electronic."
+  },
+  "gaming": {
+    "name": "gaming",
+    "description": "Aplica el filtro Gaming."
+  },
+  "karaoke": {
+    "name": "karaoke",
+    "description": "Aplica el filtro Karaoke."
+  },
+  "nightcore": {
+    "name": "nightcore",
+    "description": "Aplica el filtro Nightcore."
+  },
+  "phaser": {
+    "name": "phaser",
+    "description": "AÃ±ade un efecto phaser a la mÃºsica."
+  },
+  "pop": {
+    "name": "pop",
+    "description": "Aplica el filtro Pop."
+  },
+  "preset": {
+    "name": "ajuste_predefinido",
+    "description": "Aplica un ajuste de audio predefinido.",
+    "options": {
+      "name": "El ajuste a aplicar (ej. party, chill, lofi)."
+    }
+  },
+  "rock": {
+    "name": "rock",
+    "description": "Aplica el filtro Rock."
+  },
+  "soft": {
+    "name": "soft",
+    "description": "Aplica el filtro Soft."
+  },
+  "trebblebass": {
+    "name": "trebblebass",
+    "description": "Aplica el filtro Trebblebass."
+  },
+  "tremolo": {
+    "name": "tremolo",
+    "description": "Aplica el filtro Tremolo."
+  },
+  "vaporwave": {
+    "name": "vaporwave",
+    "description": "Aplica el filtro Vaporwave."
+  },
+  "vibrato": {
+    "name": "vibrato",
+    "description": "Aplica el filtro Vibrato."
+  },
+  "record": {
+    "name": "grabar",
+    "description": "Comienza a grabar el audio en el canal de voz."
+  },
+  "stoprecord": {
+    "name": "detener_grabacion",
+    "description": "Detiene la grabaciÃ³n actual."
+  },
+  "repeat": {
+    "name": "repetir",
+    "description": "Reinicia la canciÃ³n actual o vuelve a reproducir la Ãºltima."
+  }
+}

@@ -1,0 +1,222 @@
+{
+  "general": {
+    "no_voice": "No estás en un canal de voz.",
+    "no_voice_access": "No puedo conectarme ni ver tu canal de voz.",
+    "not_in_same_channel": "No estás en el mismo canal de voz que yo.",
+    "no_nodes": "No hay nodos conectados.",
+    "no_queue": "No hay nada en la cola. ¡Añade algunas canciones!"
+  },
+  "playlist": {
+    "title": "Lista de reproducción:",
+    "select_prompt": "Selecciona la(s) lista(s) de reproducción a las que añadir la canción.",
+    "select_placeholder": "Selecciona una o más opciones.",
+    "paused": "Pausado",
+    "playing": "Reproduciendo",
+    "states": {
+      "title": "Estado:",
+      "public": "Público",
+      "private": "Privado"
+    },
+    "created_list_title": "📜 | Tus listas de reproducción creadas",
+    "track_length": "({{tracks}} canciones)",
+    "not_found": "No se pudo encontrar la lista de reproducción.",
+    "no_playlists": "No has creado ninguna lista de reproducción.",
+    "not_owner": "No eres el propietario de esta lista de reproducción. No tienes permiso para verla.",
+    "no_added_track": "La canción no se ha añadido a ninguna lista de reproducción porque ya existe.",
+    "track_not_found": "No se pudo encontrar la canción.",
+    "number_invalid": "El número debe ser {{range}}.",
+    "added_track": "¡La canción se ha añadido correctamente!",
+    "removed_track": "¡La canción se ha eliminado correctamente!",
+    "added_track_mass": "¡La canción se ha añadido correctamente!{{not_modified}}",
+    "added_playlist": "¡Las canciones de **{{playlist}}** se han añadido correctamente!",
+    "playing_playlist": "Reproduciendo lista **{{playlist}}**",
+    "deleted_playlist": "¡La lista de reproducción **{{name}}** (`{{id}}`) se ha eliminado correctamente!",
+    "created_playlist": "La lista de reproducción **{{name}}** (`{{id}}`) se ha creado como **{{state}}**."
+  },
+  "jumpto": {
+    "no_negative": "Las canciones no tienen IDs negativos, usa un ID de canción adecuado e inténtalo de nuevo.",
+    "no_current": "No puedes saltar a una canción que ya se está reproduciendo.\nPara saltar la canción actual usa: `{{cmd}}`",
+    "not_found": "La cola no tiene tantas canciones.",
+    "success": "¡Saltado a ***{{song}}*** correctamente!"
+  },
+  "leave": {
+    "no_channel": "No estoy en un canal de voz. Si lo estoy, intenta desconectarme.",
+    "success": "¡He **abandonado** el canal de voz correctamente!"
+  },
+  "loop": {
+    "no_queue": "No hay nada reproduciéndose actualmente.",
+    "current_loop": "🎵| Bucle actual establecido en: **{{mode}}**",
+    "loop_disabled": "El bucle ha sido **desactivado**",
+    "success": "El bucle de {{mode}} ha sido **activado**",
+    "modes": {
+      "none": "Ninguno",
+      "track": "Canción",
+      "queue": "Cola"
+    }
+  },
+  "lyrics": {
+    "no_song": "No hay nada reproduciéndose actualmente.\nBusca usando el nombre de una canción o añade una a la cola.",
+    "no_lyrics": "No pude encontrar ninguna letra. Comprueba la ortografía e inténtalo de nuevo.",
+    "no_info": "No pude encontrar información adicional sobre la canción.{{tip}}",
+    "button_fail": "¡Estos botones no son para ti!",
+    "embed": {
+      "title": "🎵 | Letra de la canción",
+      "footer": "Página {{current}} de {{total}}"
+    }
+  },
+  "nowplaying": {
+    "no_info": "No pude obtener información sobre la canción actual.",
+    "loop": "Modo de bucle:",
+    "playing": "| Canción reproduciéndose actualmente",
+    "requested_by": "Solicitado por {{user}}",
+    "live": "EN VIVO",
+    "created": "💾 | Creado por",
+    "queue_length": "🎵 | Duración de la cola",
+    "no_tracks": "{{tracks}} canciones esperando"
+  },
+  "pause": {
+    "already_paused": "El reproductor ya está en pausa.",
+    "success": "¡Has **pausado** el reproductor correctamente!"
+  },
+  "play": {
+    "no_channel": "No puedo conectarme ni ver tu canal de voz.",
+    "no_results": "No pude encontrar ningún resultado para tu búsqueda.",
+    "no_results_error": "No pude encontrar resultados para esa búsqueda. Inténtalo de nuevo o espera un poco.",
+    "added_playlist": "Lista de reproducción **{{name}}** añadida a la cola con **{{count}}** canciones.",
+    "added_playlist_next": "Lista de reproducción **{{name}}** añadida para reproducir a continuación con **{{count}}** canciones.",
+    "playing_playlist": "Reproduciendo lista **{{name}}** con **{{count}}** canciones.",
+    "enqueued": "**{{track}}** añadido a la cola",
+    "enqueued_next": "**{{track}}** añadido para reproducir a continuación",
+    "playing": "Reproduciendo **{{track}}**",
+    "tip_loop": "**Consejo:** Puedes poner en bucle la canción/cola actual usando </loop:{{id}}>."
+  },
+  "queue": {
+    "requested_by": "Solicitado por {{user}}",
+    "title": "🎵 | Cola de canciones actual",
+    "loop": "Modo de bucle:",
+    "now_playing": "**Reproduciendo ahora**",
+    "upcoming": ":arrow_down: | **Próximamente**",
+    "fields": {
+      "length_title": "Duración de la cola",
+      "total_duration": "{{time}} en total",
+      "tracks_title": "Canciones en cola",
+      "total_tracks": "{{count_text}}"
+    },
+    "tracks_shown": "{{count}} mostradas",
+    "tracks_on_list": "{{count}} en la lista",
+    "total": "Total: {{count}}",
+    "left": "quedan {{time}}"
+  },
+  "rejoin": {
+    "not_in_same_vc": "No estoy solo, únete primero a mi canal de voz.",
+    "success": "¡Conectado correctamente!"
+  },
+  "history": {
+    "title": "📜 | Canciones reproducidas recientemente",
+    "none": "Aún no se han reproducido canciones en este servidor.",
+    "footer": "Últimas 5 canciones"
+  },
+  "removetrack": {
+    "no_negative": "Los IDs de las canciones no pueden ser negativos. Por favor, usa un ID válido.",
+    "already_playing": "No puedes quitar una canción que ya se está reproduciendo.\nPara saltar la canción actual usa: `/skip`",
+    "not_found": "No se pudo encontrar la canción especificada.",
+    "success": "Has quitado correctamente **{{title}}** de la cola."
+  },
+  "resume": {
+    "not_paused": "El reproductor no está en pausa.",
+    "success": "¡Has **reanudado** el reproductor correctamente!"
+  },
+  "search": {
+    "no_search": "¡Usa el comando `/play` para reproducir una {{option}} específica!",
+    "title": "🔍 | Búsqueda - Selección de canción",
+    "footer": "Pulsa un botón para seleccionar una canción en menos de 20 segundos.",
+    "no_selection": "No elegiste ninguno de los resultados. La selección ha sido cancelada."
+  },
+  "seek": {
+    "not_valid": "Ese no es un formato de tiempo válido.",
+    "live": "No puedes avanzar en una transmisión en vivo.",
+    "exceeds_length": "No puedes avanzar más allá de la duración de la canción.",
+    "success": "Se ha avanzado correctamente a **{{time}}**"
+  },
+  "setup": {
+    "missing_channels_perm": "Necesito el permiso **Gestionar canales** para crear un nuevo canal",
+    "missing_role_perm": "No puedo crear el canal con los permisos adecuados. Necesito el permiso `Gestionar roles`.",
+    "missing_required_perms": "Necesito los siguientes permisos para ejecutar este comando: `Ver canales`, `Enviar mensajes`, `Insertar enlaces`",
+    "unable_to_set_parent": "No puedo establecer algunos permisos para el canal.\nEl canal aparecerá en la parte superior de la lista de canales.",
+    "unable_to_send": "No puedo enviar mensajes al canal especificado.",
+    "legacy_on": "✅ | Los **motores heredados** han sido **activados** para este servidor. Asegúrate de cumplir con los términos externos.",
+    "legacy_off": "✅ | Los **motores heredados** han sido **desactivados** para este servidor (volviendo a los motores principales).",
+    "success": "Se ha configurado correctamente el reproductor de música en **{{channel}}**",
+    "tip": {
+        "title": "📌 | **Consejo para una mejor experiencia**",
+        "description": "Para mantener este canal limpio, recomendamos desactivar el permiso **'Enviar mensajes'** para `@everyone` en los ajustes de este canal. Esto asegura que el controlador de música siga siendo fácilmente accesible en la parte inferior del canal.",
+        "footer": "ℹ️ | **Puedes eliminar este mensaje en cualquier momento.**"
+    }
+  },
+  "shuffle": {
+    "not_enough_tracks": "Debe haber al menos 3 canciones en la cola para mezclar.",
+    "success": "La cola se ha **mezclado** correctamente."
+  },
+  "stop": {
+    "success": "El reproductor se ha **detenido** correctamente."
+  },
+  "preset": {
+    "success": "¡El ajuste predefinido **{{name}}** se ha **aplicado** correctamente!"
+  },
+  "skip": {
+    "no_queue": "La canción no se puede saltar. No hay nada en la cola.",
+    "success": "Canción **{{title}}** saltada"
+  },
+  "volume": {
+    "current_volume": "ℹ️ | El volumen actual es **{{volume}}%**",
+    "invalid_volume": "Debes establecer un valor entre 1% - 100%",
+    "no_mute": "No puedes establecer el volumen al 0%.",
+    "success": "Has establecido correctamente el volumen a `{{volume}}%`"
+  },
+  "player": {
+    "buttons": {
+      "play": "Reproducir",
+      "pause": "Pausa",
+      "resume": "Reanudar",
+      "skip": "Saltar",
+      "stop": "Detener",
+      "volume_up": "Volumen [+]",
+      "volume_down": "Volumen [-]",
+      "add_track": "Añadir canción(es)",
+      "add_to_playlist": "Añadir a la lista",
+      "view_queue": "Ver cola",
+      "shuffle": "Mezclar",
+      "loop": "Bucle",
+      "back": "Atrás",
+      "delete": "Eliminar",
+      "forward": "Adelante",
+      "lyrics": "Letras",
+      "queue": "Cola",
+      "like": "Me gusta"
+    },
+    "idle": {
+      "title": "Reproductor de música - Inactivo",
+      "description": "Nadie está actualmente en el canal de voz. El reproductor está ahora **inactivo**.\\nSi ningún usuario se une al canal de voz en **10 minutos**, el reproductor se **detendrá**.",
+      "button": "Activar"
+    },
+    "inactive": {
+      "title": "Reproductor de música - Inactivo",
+      "description": "El reproductor de música está actualmente **inactivo**.\\n¡Para activarlo, **haz clic en el botón de abajo** para buscar una pista!",
+      "button": "Buscar y reproducir"
+    },
+    "info": {
+      "uploader": "Subido por",
+      "requester": "Solicitado por",
+      "next": "Siguiente"
+    },
+    "filters": {
+      "reset": "Restablecer todo",
+      "title": "Filtros de audio"
+    }
+  },
+  "repeat": {
+    "no_history": "No pude encontrar ningún historial de canciones para repetir.",
+    "success_replay": "Reproduciendo de nuevo la última canción: **{{track}}**",
+    "success_seek": "¡La canción actual se ha reiniciado correctamente!"
+  }
+}

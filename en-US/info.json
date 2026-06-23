@@ -1,0 +1,110 @@
+{
+  "botinfo": {
+    "title": "🗂️ | {{username}} | Statistics and Information",
+    "fields": {
+      "uptime": "⏱️ | __Bot Uptime__",
+      "performance": "📊 | __Performance__",
+      "memory": "__**Memory Usage**__",
+      "latency": "**Latency:**",
+      "stats": "📒 | __Currently having__",
+      "servers": "**Servers:**",
+      "users": "**Users**:",
+      "commands": "**Commands:**",
+      "players": "**Players:**",
+      "versions": "🛡️ | __Versions__",
+      "bot": "**Bot Version:**",
+      "node": "**Node.js:**",
+      "bun": "**Bun:**",
+      "api": "**@discordjs/core:**",
+      "others": "❓ | __Others__",
+      "developer": "**Developer:**",
+      "created": "**Created At:**"
+    }
+  },
+  "translation_progress": {
+    "title": "🌍 | Bot Translation Progress",
+    "description": "Here is the current translation progress for all community-supported languages, compared against `en-US`.\nTotal strings: **{{count}}**",
+    "error_master": "Could not load the master `en-US` language files to compare against.",
+    "error_languages": "No other languages found to compare.",
+    "field_title": "Languages",
+    "field_empty": "No languages to display."
+  },
+  "changelog": {
+    "title": "🗒️ | Changelog - Version {{version}}",
+    "none": "There are no changelogs to display yet.",
+    "footer": "Last Updated"
+  },
+  "clusters": {
+    "error_fetch": "An error occurred while fetching the data.",
+    "title": "🔗 | Band Information",
+    "fields": {
+      "cluster": "Band",
+      "current_cluster": " (You are here)",
+      "uptime": "**Uptime:**",
+      "servers": "**Servers:**",
+      "users": "**Users:**",
+      "memory": "**Memory:**",
+      "ping": "**Ping:**",
+      "players": "**Current Players:**"
+    }
+  },
+  "help": {
+    "categories": {
+      "info": "ℹ️ | Information",
+      "music": "🎵 | Music",
+      "filters": "🎚️ | Filters",
+      "support": "🧑‍💼 | Helpdesk",
+      "developer": "🛠️ | Developer"
+    },
+    "main_embed": {
+      "title": "📑 | {{username}}'s Available Commands",
+      "footer": "Total Commands: {{count}}",
+      "buttons": {
+        "invite": "Invite",
+        "upvote": "Upvote",
+        "support": "Support"
+      }
+    },
+    "command_embed": {
+      "fail": {
+        "title": "Command not found",
+        "description": "Command `{{cmd}}` could not be found.\nCheck the spelling and try again."
+      },
+      "title": "🔎 | {{cmd}} - Command Information",
+      "fields": {
+        "name": "**Name:**",
+        "description": "**Description:**",
+        "category": "**Category:**",
+        "usage": "**Usage:**",
+        "permissions": "__**Permissions Needed**__"
+      },
+      "footer": "Syntax: <> = required, [] = optional"
+    }
+  },
+  "ping": {
+    "title": "🏓 | Ping Statistics",
+    "fields": {
+      "latency": ":timer: | Latency",
+      "api": ":robot: | API",
+      "player": ":headphones: | Player Ping"
+    }
+  },
+  "privacy": {
+    "title": "📝 | Privacy Policy",
+    "description": "You can check out everything you need to know by clicking [here](https://github.com/T-Bot-Team/privacy-policy-tos/blob/master/t-music-bot/privacy-policy.md)",
+    "optout_on": "✅ | You have successfully **opted-out** of data collection. Your existing data has been **deleted** and future plays will not be counted. (Run this command again to opt-in)",
+    "optout_off": "✅ | You have successfully **opted-in** to data collection. Your future plays will now be tracked on the leaderboards. (Run this command again to opt-out)"
+  },
+  "topsongs": {
+    "title": "🎶 | Most Played Tracks",
+    "times": "**Times Played:**",
+    "total": "**{{amount}}** songs have been played with over **{{plays}}** plays in total! :tada:",
+    "rank": "🎵 | **Last Played Rank:** `#{{rank}}` ({{title}} - **{{plays}}** plays)"
+  },
+  "topusers": {
+    "title": "👑 | Most Active Users",
+    "times": "**Times Played:**",
+    "total": "**{{amount}}** users have played songs with over **{{plays}}** plays in total! :tada:",
+    "rank": "👤 | **Your Global Rank:** `#{{rank}}` (**{{plays}}** plays)"
+  }
+}

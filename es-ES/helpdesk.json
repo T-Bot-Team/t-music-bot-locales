@@ -1,0 +1,27 @@
+{
+  "bugreport": {
+    "not_valid": "Debe proporcionar un nombre de comando válido.",
+    "modal": {
+      "title": "Enviar informe de error",
+      "command_label": "¿Qué comando tiene el error?",
+      "command_placeholder": "ej. /play, /skip, music player",
+      "issue_label": "Por favor, describa el error en detalle",
+      "issue_placeholder": "¿Qué pasó? ¿Qué esperaba que pasara? Por favor, sea lo más específico posible."
+    },
+    "success": {
+      "title": "¡Informe de error enviado!",
+      "description": "✅ | ¡Gracias por sus comentarios! Su informe de error ha sido enviado.\nSu ID de error es: **#{{bugId}}**",
+      "footer": "Únete al servidor de soporte para obtener más información (/support)."
+    }
+  },
+  "invite": {
+    "title": "🔗 | Enlaces de invitación",
+    "description": "¡Ayúdanos a correr la voz sobre el bot agregándolo a tu propio servidor!\n¿Quieres ayudar aún más? ¡Usa `/bugreport` para informar de cualquier error o problema!\n\n🤖 | **Enlaces de invitación del bot**\n[Sin Permisos](https://discordapp.com/oauth2/authorize?client_id={{id}}&permissions=0&scope=bot%20applications.commands) | [Permisos Completos](https://discordapp.com/api/oauth2/authorize?client_id={{id}}&permissions=2146958583&scope=bot%20applications.commands)\nNormal: [Permisos Necesarios](https://discordapp.com/api/oauth2/authorize?client_id={{id}}&permissions=36981760&scope=bot%20applications.commands)\n\n🌐 | **Sitios web para Votar**\n[Top.gg](https://top.gg/421978090823090186/vote)\n\n🆘 | **Servidor de Soporte**\n[Únete aquí](https://discord.gg/FYzyYTX)",
+    "footer": "¡Gracias por usar el bot!"
+  },
+  "support": {
+    "title": "🆘 | Servidor de Soporte",
+    "description": "Si has encontrado algún error, o simplemente quieres pasar el rato con nosotros y divertirte, ¡haz clic en [este enlace](https://discord.gg/FYzyYTX) para unirte a nuestro Servidor de Soporte!\n\n**Recordatorio:** ¡Siempre puedes añadir el bot a tu propio servidor para compartir la diversión y apoyarnos también!\n\nAquí tienes la [invitación del bot](https://discordapp.com/api/oauth2/authorize?client_id=412003088732389396&permissions=376532054&scope=bot)\n¡Gracias de nuevo por pasarte y que te diviertas!",
+    "footer": "¡Gracias por utilizar nuestro bot!"
+  }
+}

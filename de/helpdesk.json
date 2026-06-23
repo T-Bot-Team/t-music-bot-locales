@@ -1,0 +1,27 @@
+{
+  "bugreport": {
+    "not_valid": "Du musst einen gültigen Befehlsnamen angeben.",
+    "modal": {
+      "title": "Fehler melden",
+      "command_label": "Welcher Befehl ist betroffen?",
+      "command_placeholder": "z.B. /play, /skip, Musikplayer",
+      "issue_label": "Bitte beschreiben Sie den Fehler im Detail",
+      "issue_placeholder": "Was ist passiert? Was haben Sie erwartet? Bitte seien Sie so spezifisch wie möglich."
+    },
+    "success": {
+      "title": "Fehlerbericht gesendet!",
+      "description": "✅ | Danke für dein Feedback! Dein Fehlerbericht wurde eingereicht.\nDeine Fehler-ID ist: **#{{bugId}}**",
+      "footer": "Tritt dem Support-Server für weitere Informationen bei! (/support)"
+    }
+  },
+  "invite": {
+    "title": ":link: | Nützliche Links",
+    "description": "Hilf uns, den Bot bekannter zu machen, indem du ihn deinem eigenen Server hinzufügst!\nWillst du noch mehr helfen? Nutze `/bugreport`, um Fehler oder Probleme zu melden!\n\n:robot: | **Bot-Einladungslinks**\n[Keine Berechtigungen](https://discordapp.com/oauth2/authorize?client_id={{id}}&permissions=0&scope=bot%20applications.commands) | [Alle Berechtigungen](https://discordapp.com/api/oauth2/authorize?client_id={{id}}&permissions=2146958583&scope=bot%20applications.commands)\nNormal: [Benötigte Berechtigungen](https://discordapp.com/api/oauth2/authorize?client_id={{id}}&permissions=36981760&scope=bot%20applications.commands)\n\n:globe_with_meridians: | **Voting-Webseiten**\n[Top.gg](https://top.gg/421978090823090186/vote)\n\n:beginner: | **Support-Server**\n[Hier beitreten](https://discord.gg/FYzyYTX)",
+    "footer": "Viel Spaß mit dem Bot!"
+  },
+  "support": {
+    "title": ":link: | Support-Server Einladung",
+    "description": "Wenn du Fehler gefunden hast oder einfach nur mit uns abhängen und Spaß haben willst, klicke [diesen Link](https://discord.gg/FYzyYTX), um unserem Support-Server beizutreten!\n\n**Erinnerung:** Du kannst den Bot jederzeit deinem eigenen Server hinzufügen, um den Spaß zu teilen und uns zu unterstützen!\n\nHier ist die [Bot-Einladung](https://discordapp.com/api/oauth2/authorize?client_id=412003088732389396&permissions=376532054&scope=bot)\nDanke nochmal fürs Vorbeischauen und **viel Spaß**!",
+    "footer": "Danke, dass du unseren Bot nutzt!"
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "botinfo": {
+    "title": "🗂️ | {{username}} | Estadísticas e información",
+    "fields": {
+      "uptime": "⏱️ | __Tiempo de actividad__",
+      "performance": "📊 | __Rendimiento__",
+      "memory": "__**Uso de memoria**__",
+      "latency": "**Latencia:**",
+      "stats": "📒 | __Estadísticas__",
+      "servers": "**Servidores:**",
+      "users": "**Usuarios**:",
+      "commands": "**Comandos:**",
+      "players": "**Reproductores:**",
+      "versions": "🛡️ | __Versiones__",
+      "bot": "**Versión del Bot:**",
+      "node": "**Node.js:**",
+      "bun": "**Bun:**",
+      "api": "**@discordjs/core:**",
+      "others": "❓ | __Otros__",
+      "developer": "**Desarrollador:**",
+      "created": "**Creado en:**"
+    }
+  },
+  "translation_progress": {
+    "title": "🌍 | Progreso de traducción del bot",
+    "description": "Aquí está el progreso de traducción actual para todos los idiomas admitidos por la comunidad, en comparación con `en-US`.\nCadenas totales: **{{count}}**",
+    "error_master": "No se pudieron cargar los archivos de idioma maestro `en-US` para comparar.",
+    "error_languages": "No se encontraron otros idiomas para comparar.",
+    "field_title": "Idiomas",
+    "field_empty": "No hay idiomas para mostrar."
+  },
+  "changelog": {
+    "title": "🗒️ | Registro de cambios - Versión {{version}}",
+    "none": "Aún no hay registros de cambios para mostrar.",
+    "footer": "Última actualización"
+  },
+  "clusters": {
+    "error_fetch": "Se ha producido un error al obtener los datos.",
+    "title": "🔗 | Información sobre la banda",
+    "fields": {
+      "cluster": "Banda",
+      "current_cluster": " (Estás aquí)",
+      "uptime": "**Tiempo de actividad:**",
+      "servers": "**Servidores:**",
+      "users": "**Usuarios:**",
+      "memory": "**Memoria:**",
+      "ping": "**Ping:**",
+      "players": "**Reproductores actuales:**"
+    }
+  },
+  "help": {
+    "categories": {
+      "info": "ℹ️ | Información",
+      "music": "🎵 | Música",
+      "filters": "🎚️ | Filtros",
+      "support": "🧑‍💼 | Ayuda",
+      "developer": "🛠️ | Desarrollador"
+    },
+    "main_embed": {
+      "title": "📑 | Comandos disponibles de {{username}}",
+      "footer": "Total de comandos: {{count}}",
+      "buttons": {
+        "invite": "Invitar",
+        "upvote": "Votar",
+        "support": "Soporte"
+      }
+    },
+    "command_embed": {
+      "fail": {
+        "title": "Comando no encontrado",
+        "description": "No se pudo encontrar el comando `{{cmd}}`. Comprueba la ortografía e inténtalo de nuevo."
+      },
+      "title": "🔎 | {{cmd}} - Información del comando",
+      "fields": {
+        "name": "**Nombre:**",
+        "description": "**Descripción:**",
+        "category": "**Categoría:**",
+        "usage": "**Uso:**",
+        "permissions": "**Permisos necesarios:**"
+      },
+      "footer": "Sintaxis: <> = obligatorio, [] = opcional"
+    }
+  },
+  "ping": {
+    "title": "🏓 | Estadísticas de Ping",
+    "fields": {
+      "latency": ":timer: | Latencia",
+      "api": ":robot: | API",
+      "player": ":headphones: | Player Ping"
+    }
+  },
+  "privacy": {
+    "title": "📝 | Política de privacidad",
+    "description": "Puede consultar todo lo que necesita saber haciendo clic [aquí](https://github.com/T-Bot-Team/privacy-policy-tos/blob/master/t-music-bot/privacy-policy.md)",
+    "optout_on": "✅ | Te has **excluido** con éxito de la recopilación de datos. Tus datos existentes han sido **eliminados** y tus futuras reproducciones no se contarán. (Ejecuta este comando de nuevo para incluirte)",
+    "optout_off": "✅ | Te has **incluido** con éxito en la recopilación de datos. Tus futuras reproducciones ahora serán rastreadas en las tablas de clasificación. (Ejecuta este comando de nuevo para excluirte)"
+  },
+  "topsongs": {
+    "title": "🎶 | Pistas más reproducidas",
+    "times": "**Veces reproducidas:**",
+    "total": "¡Se έχουν reproducido **{{amount}}** canciones con más de **{{plays}}** reproducciones en total! :tada:",
+    "rank": "🎵 | **Rango de la última canción:** `#{{rank}}` ({{title}} - **{{plays}}** reproducciones)"
+  },
+  "topusers": {
+    "title": "👑 | Usuarios más activos",
+    "times": "**Veces reproducidas:**",
+    "total": "¡**{{amount}}** usuarios han reproducido canciones con más de **{{plays}}** reproducciones en total! :tada:",
+    "rank": "👤 | **Tu Rango Global:** `#{{rank}}` (**{{plays}}** reproducciones)"
+  }
+}

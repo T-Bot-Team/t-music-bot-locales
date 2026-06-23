@@ -1,0 +1,23 @@
+{
+  "no_permission": "You do not have the required permissions to use this command.",
+  "bot_no_permission": "I am missing the following permissions to run this command: {{missing}}",
+  "error_occurred": "An unexpected error occurred. Please report this in our Support Server. (`/support`)",
+  "error": "An error occurred while executing this command. Please try again later.",
+  "timed_out": "Interaction timed out.",
+  "on_cooldown": "You are on cooldown.",
+  "no_voice": "You are not in a voice channel.",
+  "time_units": {
+    "week_singular": "week",
+    "week_plural": "weeks",
+    "day_singular": "day",
+    "day_plural": "days",
+    "hour_singular": "hour",
+    "hour_plural": "hours",
+    "minute_singular": "minute",
+    "minute_plural": "minutes",
+    "second_singular": "second",
+    "second_plural": "seconds",
+    "and": "and",
+    "zero_seconds": "0 seconds"
+  }
+}

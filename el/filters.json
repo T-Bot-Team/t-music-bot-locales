@@ -1,0 +1,63 @@
+{
+  "eightd": {
+    "success": "Το φίλτρο 8D εφαρμόστηκε επιτυχώς!"
+  },
+  "bassboost": {
+    "success": "Ορίσατε επιτυχώς το επίπεδο bassboost σε **{{level}}**!"
+  },
+  "clear": {
+    "success": "Όλα τα φίλτρα αφαιρέθηκαν επιτυχώς!"
+  },
+  "chorus": {
+    "success": "Το εφέ chorus εφαρμόστηκε επιτυχώς!"
+  },
+  "echo": {
+    "success": "Το εφέ echo εφαρμόστηκε επιτυχώς!"
+  },
+  "electronic": {
+    "success": "Το φίλτρο Electronic εφαρμόστηκε επιτυχώς!"
+  },
+  "gaming": {
+    "success": "Το φίλτρο Gaming εφαρμόστηκε επιτυχώς!"
+  },
+  "karaoke": {
+    "success": "Το φίλτρο Karaoke εφαρμόστηκε επιτυχώς!"
+  },
+  "nightcore": {
+    "love_success": "Το φίλτρο Nightcore **Love** εφαρμόστηκε επιτυχώς!",
+    "normal_success": "Το φίλτρο Nightcore **Normal** εφαρμόστηκε επιτυχώς!"
+  },
+  "phaser": {
+    "success": "Το εφέ phaser εφαρμόστηκε επιτυχώς!"
+  },
+  "pop": {
+    "success": "Το φίλτρο Pop εφαρμόστηκε επιτυχώς!"
+  },
+  "rock": {
+    "success": "Το φίλτρο Rock εφαρμόστηκε επιτυχώς!"
+  },
+  "soft": {
+    "success": "Το φίλτρο Soft εφαρμόστηκε επιτυχώς!"
+  },
+  "trebblebass": {
+    "success": "Το φίλτρο Trebblebass εφαρμόστηκε επιτυχώς!"
+  },
+  "tremolo": {
+    "success": "Το φίλτρο Tremolo εφαρμόστηκε επιτυχώς!"
+  },
+  "vaporwave": {
+    "success": "Το φίλτρο Vaporwave εφαρμόστηκε επιτυχώς!"
+  },
+  "vibrato": {
+    "success": "Το φίλτρο Vibrato εφαρμόστηκε επιτυχώς!"
+  },
+  "lowpass": {
+    "success": "Το φίλτρο Lowpass εφαρμόστηκε επιτυχώς!"
+  },
+  "slowmode": {
+    "success": "Το φίλτρο Slowmode εφαρμόστηκε επιτυχώς!"
+  },
+  "distortion": {
+    "success": "Το φίλτρο Distortion εφαρμόστηκε επιτυχώς!"
+  }
+}
