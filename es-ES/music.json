@@ -88,7 +88,12 @@
     "enqueued": "**{{track}}** añadido a la cola",
     "enqueued_next": "**{{track}}** añadido para reproducir a continuación",
     "playing": "Reproduciendo **{{track}}**",
-    "tip_loop": "**Consejo:** Puedes poner en bucle la canción/cola actual usando </loop:{{id}}>."
+    "tip_loop": "**Consejo:** Puedes poner en bucle la canción/cola actual usando </loop:{{id}}>.",
+    "import_progress": "Importando... **{{added}}/{{total}}** canciones",
+    "import_complete": "Importadas **{{added}}** de **{{total}}** canciones. {{unavailable}} no disponibles.",
+    "import_complete_all": "Importadas todas las **{{added}}** canciones de **{{name}}**.",
+    "import_private": "Esta lista de reproducción es privada o tiene restricción regional.",
+    "import_resumed": "Se reanudó la importación interrumpida: **{{added}}** de **{{total}}** canciones."
   },
   "queue": {
     "requested_by": "Solicitado por {{user}}",

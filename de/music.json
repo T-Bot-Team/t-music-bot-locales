@@ -88,7 +88,12 @@
     "enqueued": "**{{track}}** in die Warteschlange aufgenommen",
     "enqueued_next": "**{{track}}** wurde zur Wiedergabe als Nächstes eingereiht",
     "playing": "Spiele **{{track}}**",
-    "tip_loop": "**Tipp:** Du kannst den aktuellen Titel/Warteschlange mit </loop:{{id}}> wiederholen."
+    "tip_loop": "**Tipp:** Du kannst den aktuellen Titel/Warteschlange mit </loop:{{id}}> wiederholen.",
+    "import_progress": "Importiere... **{{added}}/{{total}}** Titel",
+    "import_complete": "**{{added}}** von **{{total}}** Titeln importiert. {{unavailable}} nicht verfügbar.",
+    "import_complete_all": "Alle **{{added}}** Titel aus **{{name}}** importiert.",
+    "import_private": "Diese Playlist ist privat oder regional gesperrt.",
+    "import_resumed": "Unterbrochenen Import fortgesetzt: **{{added}}** von **{{total}}** Titeln."
   },
   "queue": {
     "requested_by": "Angefordert von {{user}}",

@@ -88,7 +88,12 @@
                  "enqueued":  "Enqueued **{{track}}**",
                  "enqueued_next":  "Enqueued **{{track}}** to play next",
                  "playing":  "Playing **{{track}}**",
-                 "tip_loop":  "**Tip:** You can loop the current track/queue by using \u003c/loop:{{id}}\u003e."
+                 "tip_loop":  "**Tip:** You can loop the current track/queue by using \u003c/loop:{{id}}\u003e.",
+                 "import_progress":  "Importing... **{{added}}/{{total}}** tracks",
+                 "import_complete":  "Imported **{{added}}** of **{{total}}** tracks. {{unavailable}} unavailable.",
+                 "import_complete_all":  "Imported all **{{added}}** tracks from **{{name}}**.",
+                 "import_private":  "This playlist is private or region-locked.",
+                 "import_resumed":  "Resumed interrupted import: **{{added}}** of **{{total}}** tracks."
              },
     "queue":  {
                   "requested_by":  "Requested by {{user}}",
