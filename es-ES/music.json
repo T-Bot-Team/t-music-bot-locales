@@ -31,7 +31,9 @@
     "added_playlist": "¡Las canciones de **{{playlist}}** se han añadido correctamente!",
     "playing_playlist": "Reproduciendo lista **{{playlist}}**",
     "deleted_playlist": "¡La lista de reproducción **{{name}}** (`{{id}}`) se ha eliminado correctamente!",
-    "created_playlist": "La lista de reproducción **{{name}}** (`{{id}}`) se ha creado como **{{state}}**."
+    "created_playlist": "La lista de reproducción **{{name}}** (`{{id}}`) se ha creado como **{{state}}**.",
+    "imported_playlist": "Importadas **{{count}}** canciones a la lista privada **{{name}}** (`{{id}}`).",
+    "imported_playlist_partial": "Importadas **{{count}}** de **{{total}}** canciones a la lista privada **{{name}}** (`{{id}}`). {{unavailable}} no disponibles."
   },
   "jumpto": {
     "no_negative": "Las canciones no tienen IDs negativos, usa un ID de canción adecuado e inténtalo de nuevo.",

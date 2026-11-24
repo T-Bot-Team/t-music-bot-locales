@@ -31,7 +31,9 @@
                      "added_playlist":  "The tracks from **{{playlist}}** have been successfully added!",
                      "playing_playlist":  "Playing playlist **{{playlist}}**",
                      "deleted_playlist":  "The playlist **{{name}}** (`{{id}}`) has been successfully deleted!",
-                     "created_playlist":  "The playlist **{{name}}** (`{{id}}`) has been created as **{{state}}**."
+                     "created_playlist":  "The playlist **{{name}}** (`{{id}}`) has been created as **{{state}}**.",
+                     "imported_playlist":  "Imported **{{count}}** tracks into private playlist **{{name}}** (`{{id}}`).",
+                     "imported_playlist_partial":  "Imported **{{count}}** of **{{total}}** tracks into private playlist **{{name}}** (`{{id}}`). {{unavailable}} unavailable."
                  },
     "jumpto":  {
                    "no_negative":  "Tracks do not have negative IDs, use a proper track ID and try again.",

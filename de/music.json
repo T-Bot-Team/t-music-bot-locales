@@ -31,7 +31,9 @@
     "added_playlist": "Die Titel aus **{{playlist}}** wurden erfolgreich hinzugefügt!",
     "playing_playlist": "Spiele Playlist **{{playlist}}**",
     "deleted_playlist": "Die Playlist **{{name}}** (`{{id}}`) wurde erfolgreich gelöscht!",
-    "created_playlist": "Die Playlist **{{name}}** (`{{id}}`) wurde als **{{state}}** erstellt."
+    "created_playlist": "Die Playlist **{{name}}** (`{{id}}`) wurde als **{{state}}** erstellt.",
+    "imported_playlist": "**{{count}}** Titel in die private Playlist **{{name}}** (`{{id}}`) importiert.",
+    "imported_playlist_partial": "**{{count}}** von **{{total}}** Titeln in die private Playlist **{{name}}** (`{{id}}`) importiert. {{unavailable}} nicht verfügbar."
   },
   "jumpto": {
     "no_negative": "Titel haben keine negativen IDs, verwende eine korrekte Titel-ID und versuche es erneut.",
